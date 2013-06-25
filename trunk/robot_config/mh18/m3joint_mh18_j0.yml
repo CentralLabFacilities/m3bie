@@ -1,0 +1,32 @@
+actuator_component: m3actuator_mh18_j0
+brake: none
+calibration_date: Tue Mar 19 09:54:15 2013
+name: m3joint_mh18_j0
+param:
+  kq_d: -0.1
+  kq_g: 0.0
+  kq_i: 0.0
+  kq_i_limit: 80.0
+  kq_i_range: 80.0
+  kq_p: -6.0
+  kt_d: 0.0
+  kt_i: 0.0
+  kt_i_limit: 0.0
+  kt_i_range: 0.0
+  kt_p: 0.0
+  max_q: 134.58284744631135
+  max_q_pad: 0.0
+  max_q_slew_rate: 300
+  min_q: 0.417152553688652
+  min_q_pad: 0.0
+transmission:
+  act_name: m3actuator_mh18_j0
+  qj_to_qa:
+  - 1.0
+  qs_to_qj:
+  - 1.0
+  tqj_to_tqa:
+  - 1.0
+  tqs_to_tqj:
+  - 1.0
+  type: gear

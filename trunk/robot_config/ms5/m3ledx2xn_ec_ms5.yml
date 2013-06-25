@@ -1,0 +1,11 @@
+ethercat:
+  pdo_version: ledx2xn_pdo_v1
+  product_code: 1009
+  serial_number: 879
+name: m3ledx2xn_ec_ms5
+param:
+  config: 0
+  n_branch_a: 12
+  n_branch_b: 12
+version: iss
+firmware: m3_controller_ledx2xn_s2r1

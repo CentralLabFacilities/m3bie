@@ -1,0 +1,7 @@
+name: m3ledx2xn_ec_shm_ms5
+version: default
+# shm_id must be less than 5 char
+shm_id: XSHM
+led_x2xn_component: m3ledx2xn_ec_ms5
+# timeout in ms
+timeout: 200
