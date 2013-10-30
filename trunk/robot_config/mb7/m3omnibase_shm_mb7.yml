@@ -1,9 +1,9 @@
-name: m3omnibase_shm_mb6
+name: m3omnibase_shm_mb7
 version: default
 # shm_id must be less than 5 char
 shm_id: OSHM
-pwr_component: m3pwr_pwr038
-omnibase_component: m3omnibase_mb6
+pwr_component: m3pwr_pwr042
+omnibase_component: m3omnibase_mb7
 startup_motor_pwr_on: true
 # timeout in ms
 timeout: 200

@@ -74,11 +74,11 @@ calib:
     order: 3
     type: diff_butterworth
 description: m3_elmo_v0_1_ocarina_10/60
-ec_component: m3actuator_ec_mb6_j5
+ec_component: m3actuator_ec_mb7_j5
 ignore_bounds: 1
 encoder_calib_req: 1
-joint_component: m3joint_mb6_j5
-name: m3actuator_mb6_j5
+joint_component: m3joint_mb7_j5
+name: m3actuator_mb7_j5
 param:
   max_amp_current: 10000.0
   max_amp_temp: 125.0

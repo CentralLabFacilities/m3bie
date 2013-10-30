@@ -47,26 +47,26 @@ rt_components:
 #     m3joint_mh18_j3: m3joint
 #     m3joint_mh18_j4: m3joint
 #     m3hand_mh18: m3hand   
-  mb4:
-    m3omnibase_shm_mb4: m3omnibase_shm
-    m3omnibase_mb4: m3omnibase
-    m3joint_array_mb4: m3joint_array
-    m3actuator_mb4_j0: m3actuator
-    m3joint_mb4_j0: m3joint
-    m3actuator_mb4_j1: m3actuator
-    m3joint_mb4_j1: m3joint
-    m3actuator_mb4_j2: m3actuator
-    m3joint_mb4_j2: m3joint
-    m3actuator_mb4_j3: m3actuator
-    m3joint_mb4_j3: m3joint
-    m3actuator_mb4_j4: m3actuator
-    m3joint_mb4_j4: m3joint
-    m3actuator_mb4_j5: m3actuator
-    m3joint_mb4_j5: m3joint
-    m3actuator_mb4_j6: m3actuator
-    m3joint_mb4_j6: m3joint
-    m3actuator_mb4_j7: m3actuator
-    m3joint_mb4_j7: m3joint
+  mb7:
+#     m3omnibase_shm_mb7: m3omnibase_shm
+    m3omnibase_mb7: m3omnibase
+    m3joint_array_mb7: m3joint_array
+    m3actuator_mb7_j0: m3actuator
+    m3joint_mb7_j0: m3joint
+    m3actuator_mb7_j1: m3actuator
+    m3joint_mb7_j1: m3joint
+    m3actuator_mb7_j2: m3actuator
+    m3joint_mb7_j2: m3joint
+    m3actuator_mb7_j3: m3actuator
+    m3joint_mb7_j3: m3joint
+    m3actuator_mb7_j4: m3actuator
+    m3joint_mb7_j4: m3joint
+    m3actuator_mb7_j5: m3actuator
+    m3joint_mb7_j5: m3joint
+    m3actuator_mb7_j6: m3actuator
+    m3joint_mb7_j6: m3joint
+    m3actuator_mb7_j7: m3actuator
+    m3joint_mb7_j7: m3joint
 #   ma22:
 #     m3actuator_ma22_j0: m3actuator
 #     m3actuator_ma22_j1: m3actuator
@@ -196,15 +196,15 @@ ec_components:
 #     m3ledx2xn_ec_ms5: m3ledx2xn_ec
 #   mz4:
 #     m3actuator_ec_mz4_j0: m3actuator_ec
-  mb4:
-    m3actuator_ec_mb4_j0: m3actuator_ec
-    m3actuator_ec_mb4_j1: m3actuator_ec
-    m3actuator_ec_mb4_j2: m3actuator_ec
-    m3actuator_ec_mb4_j3: m3actuator_ec
-    m3actuator_ec_mb4_j4: m3actuator_ec
-    m3actuator_ec_mb4_j5: m3actuator_ec
-    m3actuator_ec_mb4_j6: m3actuator_ec
-    m3actuator_ec_mb4_j7: m3actuator_ec
+  mb7:
+    m3actuator_ec_mb7_j0: m3actuator_ec
+    m3actuator_ec_mb7_j1: m3actuator_ec
+    m3actuator_ec_mb7_j2: m3actuator_ec
+    m3actuator_ec_mb7_j3: m3actuator_ec
+    m3actuator_ec_mb7_j4: m3actuator_ec
+    m3actuator_ec_mb7_j5: m3actuator_ec
+    m3actuator_ec_mb7_j6: m3actuator_ec
+    m3actuator_ec_mb7_j7: m3actuator_ec
 #   ma22:
 #     m3actuator_ec_ma22_j0: m3actuator_ec
 #     m3actuator_ec_ma22_j1: m3actuator_ec

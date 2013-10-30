@@ -1,5 +1,5 @@
-actuator_component: m3actuator_mb6_j7
-name: m3joint_mb6_j7
+actuator_component: m3actuator_mb7_j7
+name: m3joint_mb7_j7
 param:
   kq_d: 0.0
   kq_g: 0.0
@@ -18,7 +18,7 @@ param:
   min_q: 0.0
   min_q_pad: 0.0
 transmission:
-  act_name: m3actuator_mb6_j7
+  act_name: m3actuator_mb7_j7
   qj_to_qa:
   - 1.0
   qs_to_qj:
