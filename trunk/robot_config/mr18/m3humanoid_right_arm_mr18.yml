@@ -15,7 +15,7 @@ chains:
     - 0.0
     - 0.0
     - 0.0
-    chain_component: m3arm_ma22
+    chain_component: m3arm_ma29
     tool_rotation_in_end:
     - -1.0
     - 0.0
@@ -30,5 +30,5 @@ chains:
     - 0.0
     - 0.0
     - 0.0
-name: m3humanoid_right_arm_mr14
+name: m3humanoid_right_arm_mr18
 pwr_component: m3pwr_pwr032

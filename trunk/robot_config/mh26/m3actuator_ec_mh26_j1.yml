@@ -4,7 +4,7 @@ ethercat:
   product_code: 1011
   serial_number: 1003
 firmware: m3_controller_hb2_h2r3_j0j1
-name: m3actuator_ec_mh24_j1
+name: m3actuator_ec_mh26_j1
 param:
   config: 2
   k_d: 0

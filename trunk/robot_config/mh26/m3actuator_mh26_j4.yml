@@ -89,10 +89,10 @@ calib:
     type: diff_butterworth
 calibration_date: Sat Apr  6 15:52:45 2013
 description: hb2dig_v0.2_hb2amp_v0.2
-ec_component: m3actuator_ec_mh24_j4
+ec_component: m3actuator_ec_mh26_j4
 ignore_bounds: 0
-joint_component: m3joint_mh24_j4
-name: m3actuator_mh24_j4
+joint_component: m3joint_mh26_j4
+name: m3actuator_mh26_j4
 param:
   max_amp_current: 1000.0
   max_amp_temp: 70.0

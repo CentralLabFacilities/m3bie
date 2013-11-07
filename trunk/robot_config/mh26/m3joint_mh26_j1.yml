@@ -1,7 +1,7 @@
-actuator_component: m3actuator_mh24_j1
+actuator_component: m3actuator_mh26_j1
 brake: none
 calibration_date: Fri Aug  2 20:10:03 2013
-name: m3joint_mh24_j1
+name: m3joint_mh26_j1
 param:
   kq_d: -0.05
   kq_g: -0.25
@@ -20,7 +20,7 @@ param:
   min_q: 4.870107886745245e-06
   min_q_pad: 0.0
 transmission:
-  act_name: m3actuator_mh24_j1
+  act_name: m3actuator_mh26_j1
   qj_to_qa:
   - 1.0
   qs_to_qj:
