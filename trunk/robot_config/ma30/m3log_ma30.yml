@@ -1,0 +1,14 @@
+name: m3log_ma25
+log_name: burn_in_0
+freq: 1000
+verbose: 0  
+enable: 1
+components:
+  - m3actuator_ec_ma25_j0
+  - m3actuator_ec_ma25_j1
+  - m3actuator_ec_ma25_j2
+  - m3actuator_ec_ma25_j3
+  - m3actuator_ec_ma25_j4
+  - m3actuator_ec_ma25_j5
+  - m3actuator_ec_ma25_j6
+version: default
