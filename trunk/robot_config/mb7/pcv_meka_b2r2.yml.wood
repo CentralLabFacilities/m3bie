@@ -4,13 +4,13 @@ gains:
 #  KPa_: 0#1100 #Preliminary
 #  KVx_:    8 #Preliminary 4 (8 w/o P)
 #  KVa_:    4 #Preliminary 2 (2 w/o P)
-  KPx_: 80 #80 #80 #60 #40 #75 #100 #40 #200 #500 #80 #800 #600 #400 #600 #320 1200 #Preliminary
-  KPa_: 80 #80 #80 #60 #40 #75 #100 #40 #200 #350 #80 #600 #500#350#1100 #Preliminary
-  KVx_: 10 #TODO: raise to 15#0.1 #3 #2 #1 #5 #0.1 #8 #1 #3 #14 #12 # 6 # 8 #16 #Preliminary 4 (8 w/o P)
-  KVa_: 10 #TODO: raise to 15 #0.1 #3 #2 #1 #5 #0.1 #8 #1 #16 #22#24 #20 #16 #Preliminary 2 (2 w/o P)
+  KPx_: 40 #80 #80 #60 #40 #75 #100 #40 #200 #500 #80 #800 #600 #400 #600 #320 1200 #Preliminary
+  KPa_: 40 #80 #80 #60 #40 #75 #100 #40 #200 #350 #80 #600 #500#350#1100 #Preliminary
+  KVx_: 5 #TODO: raise to 15#0.1 #3 #2 #1 #5 #0.1 #8 #1 #3 #14 #12 # 6 # 8 #16 #Preliminary 4 (8 w/o P)
+  KVa_: 5 #TODO: raise to 15 #0.1 #3 #2 #1 #5 #0.1 #8 #1 #16 #22#24 #20 #16 #Preliminary 2 (2 w/o P)
 #  KVx_: 2 #TODO: raise to 15#0.1 #3 #2 #1 #5 #0.1 #8 #1 #3 #14 #12 # 6 # 8 #16 #Preliminary 4 (8 w/o P)
 #  KVa_: 2 #TODO: raise to 15 #0.1 #3 #2 #1 #5 #0.1 #8 #1 #16 #22#24 #20 #16 #Preliminary 2 (2 w/o P)
-  KpE_: 200 #170 #25 #170 #  //  70.0 //  75.0
+  KpE_: 0 #170 #25 #170 #  //  70.0 //  75.0
   KpC_: 1.2 # boost steer torque by this factor to account for friction in drive train
 inertial:
   # base weight: 65.42
@@ -31,7 +31,7 @@ filter:
   FQD:  400 #350 #150 joint vel (maybe disabled)
   FXD:   75 #100 #52 local velocity LPF
   FGXD:  75 #100 #52 global velocity LPF
-  FCXDD:  150 #Preliminary control acceleration LPF
+  FCXDD:  100 #Preliminary control acceleration LPF
   FTE:   150 #60 #30 Internal Velocities LPF  
 #  FQD:  30 #350 #150 Preliminary
 #  FGXD:  150 #100 #52 Preliminary
