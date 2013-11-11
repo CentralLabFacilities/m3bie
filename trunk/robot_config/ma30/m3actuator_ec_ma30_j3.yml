@@ -2,7 +2,7 @@ chid: 0
 ethercat:
   pdo_version: actx1_pdo_v4
   product_code: 1010
-  serial_number: 1063
+  serial_number: 1011
 firmware: m3_controller_max2_bldc_a2r4
 name: m3actuator_ec_ma30_j3
 param:
@@ -24,5 +24,5 @@ param:
   qei_min: 0
   t_max: 16000
   t_min: 0
-pwr_component: m3pwr_pwr043
+pwr_component: m3pwr_pwr041
 version: esp

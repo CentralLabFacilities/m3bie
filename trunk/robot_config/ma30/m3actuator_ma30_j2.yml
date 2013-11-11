@@ -63,12 +63,12 @@ calib:
     winding_inductance: 0.463
     winding_resistance: 0.608
   theta:
-    cb_bias: -187.06464017579196
+    cb_bias: -180.04394799487272
     cb_scale: 1.0
     name: ContElec VertX13
     type: vertx_14bit
   torque:
-    cb_bias: -35.81224
+    cb_bias: -35.89374567002595
     cb_inv_torque:
     - 1.0
     - 0.0
@@ -82,7 +82,7 @@ calib:
     cutoff_freq: 80
     order: 3
     type: diff_butterworth
-calibration_date: Thu Aug  1 20:01:51 2013
+calibration_date: Fri Nov  8 16:25:03 2013
 description: max2_v2.0_seax2_v2.1
 ec_component: m3actuator_ec_ma30_j2
 ignore_bounds: 0

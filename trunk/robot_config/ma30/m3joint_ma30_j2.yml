@@ -1,11 +1,11 @@
 actuator_component: m3actuator_ma30_j2
 brake: none
-calibration_date: Thu Aug  1 20:01:51 2013
+calibration_date: Fri Nov  8 16:14:58 2013
 control_component: m3ctrl_simple_ma30_j2
 name: m3joint_ma30_j2
 param:
   kq_d: -15.0
-  kq_d_pose: -17.0  
+  kq_d_pose: -17.0
   kq_g: 1.0
   kq_i: 0.0
   kq_i_limit: 0.0
@@ -16,10 +16,10 @@ param:
   kt_i_limit: 0.0
   kt_i_range: 0.0
   kt_p: 0.0
-  max_q: 85.91832997619484
+  max_q: 86.17103094671306
   max_q_pad: 0.0
   max_q_slew_rate: 50.0
-  min_q: -85.91832997619484
+  min_q: -86.17103094671306
   min_q_pad: 0.0
 transmission:
   act_name: m3actuator_ma30_j2

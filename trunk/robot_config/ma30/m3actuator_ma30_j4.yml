@@ -61,12 +61,12 @@ calib:
     winding_inductance: 7.73
     winding_resistance: 13.7
   theta:
-    cb_bias: 65.33418787767808
+    cb_bias: 64.36733199047794
     cb_scale: -1.0
     name: ContElec VertX13
     type: vertx_14bit
   torque:
-    cb_bias: -10.208
+    cb_bias: -10.736262597850214
     cb_inv_torque:
     - 1.0
     - 0.0
@@ -80,7 +80,7 @@ calib:
     cutoff_freq: 100
     order: 3
     type: diff_butterworth
-calibration_date: Thu Aug  1 20:03:25 2013
+calibration_date: Fri Nov  8 16:25:03 2013
 description: bmw_v1.0
 ec_component: m3actuator_ec_ma30_j4
 ignore_bounds: 0

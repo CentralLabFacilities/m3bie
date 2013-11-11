@@ -31,4 +31,4 @@ chains:
     - 0.0
     - 0.0
 name: m3humanoid_right_arm_mr18
-pwr_component: m3pwr_pwr032
+pwr_component: m3pwr_pwr041

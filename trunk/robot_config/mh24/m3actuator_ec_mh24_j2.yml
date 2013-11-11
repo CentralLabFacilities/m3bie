@@ -23,5 +23,5 @@ param:
   qei_min: 1050
   t_max: 4096
   t_min: 0
-pwr_component: m3pwr_pwr042
+pwr_component: m3pwr_pwr041
 version: iss
