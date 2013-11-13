@@ -68,12 +68,12 @@ calib:
     winding_inductance: 1.31
     winding_resistance: 53.3
   theta:
-    cb_bias: 322.0
+    cb_bias: 301.0
     cb_scale: -1.0
     name: US Digital MA3
     type: ma3_12bit
   torque:
-    cb_bias: -50.13652819395065
+    cb_bias: 462.7320560514927
     cb_inv_torque:
     - 1.6634177048145293
     - 1895.5666107574357
@@ -87,7 +87,7 @@ calib:
     cutoff_freq: 100
     order: 3
     type: diff_butterworth
-calibration_date: Fri Aug  2 20:10:03 2013
+calibration_date: Tue Nov 12 15:56:07 2013
 description: hb2dig_v0.2_hb2amp_v0.2
 ec_component: m3actuator_ec_mh26_j1
 ignore_bounds: 0

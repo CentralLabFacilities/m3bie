@@ -116,13 +116,13 @@ rt_components:
     m3joint_ma30_j5: m3joint
     m3joint_ma30_j6: m3joint
     m3arm_ma30: m3arm
-#     m3dynamatics_left_h2R5_fts_ma30: m3dynamatics
-    m3dynamatics_left_fts_ma30: m3dynamatics
+    m3dynamatics_left_h2R5_fts_ma30: m3dynamatics
+#     m3dynamatics_left_fts_ma30: m3dynamatics
     m3loadx6_ma30_l0: m3loadx6
-  mr18:
+#   mr18:
 #     m3humanoid_head_mr14: m3humanoid
 #     m3humanoid_right_arm_mr18: m3humanoid
-    m3humanoid_right_left_arm_mr18: m3humanoid
+#     m3humanoid_right_left_arm_mr18: m3humanoid
 #     m3humanoid_right_left_arm_head_mr18: m3humanoid
 #    m3haptic_demo_hd0: m3haptic_demo
 #     m3humanoid_left_arm_mr18: m3humanoid
@@ -170,12 +170,12 @@ rt_components:
 #     m3head_s2csp_ctrl_ms5: m3head_s2csp_ctrl    
 #     m3ledx2xn_ec_shm_ms5: m3ledx2xn_ec_shm
 ec_components:
-#   mh26:
-#     m3actuator_ec_mh26_j0: m3actuator_ec
-#     m3actuator_ec_mh26_j1: m3actuator_ec
-#     m3actuator_ec_mh26_j2: m3actuator_ec
-#     m3actuator_ec_mh26_j3: m3actuator_ec
-#     m3actuator_ec_mh26_j4: m3actuator_ec
+  mh26:
+    m3actuator_ec_mh26_j0: m3actuator_ec
+    m3actuator_ec_mh26_j1: m3actuator_ec
+    m3actuator_ec_mh26_j2: m3actuator_ec
+    m3actuator_ec_mh26_j3: m3actuator_ec
+    m3actuator_ec_mh26_j4: m3actuator_ec
   mh24:
     m3actuator_ec_mh24_j0: m3actuator_ec
     m3actuator_ec_mh24_j1: m3actuator_ec
@@ -216,15 +216,15 @@ ec_components:
     m3actuator_ec_ma29_j5: m3actuator_ec
     m3actuator_ec_ma29_j6: m3actuator_ec
     m3loadx6_ec_ma29_l0: m3loadx6_ec
-  ma30:
-    m3actuator_ec_ma30_j0: m3actuator_ec
-    m3actuator_ec_ma30_j1: m3actuator_ec
-    m3actuator_ec_ma30_j2: m3actuator_ec
-    m3actuator_ec_ma30_j3: m3actuator_ec
-    m3actuator_ec_ma30_j4: m3actuator_ec
-    m3actuator_ec_ma30_j5: m3actuator_ec
-    m3actuator_ec_ma30_j6: m3actuator_ec
-    m3loadx6_ec_ma30_l0: m3loadx6_ec
+#   ma30:
+#     m3actuator_ec_ma30_j0: m3actuator_ec
+#     m3actuator_ec_ma30_j1: m3actuator_ec
+#     m3actuator_ec_ma30_j2: m3actuator_ec
+#     m3actuator_ec_ma30_j3: m3actuator_ec
+#     m3actuator_ec_ma30_j4: m3actuator_ec
+#     m3actuator_ec_ma30_j5: m3actuator_ec
+#     m3actuator_ec_ma30_j6: m3actuator_ec
+#     m3loadx6_ec_ma30_l0: m3loadx6_ec
   pwr:
 #     m3pwr_ec_pwr042: m3pwr_ec
     m3pwr_ec_pwr041: m3pwr_ec
