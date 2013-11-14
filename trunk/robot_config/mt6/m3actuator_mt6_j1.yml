@@ -1,0 +1,106 @@
+calib:
+  amp_temp:
+    cb_bias: 0.0
+    cb_scale: 0.01
+    name: Microchip TC1047, converted at dsp
+    type: dsp_calib
+  angle_df:
+    theta_df:
+      cutoff_freq: 80
+      order: 3
+      type: butterworth
+    thetadot_df:
+      cutoff_freq: 20
+      order: 3
+      type: diff_butterworth
+    thetadotdot_df:
+      cutoff_freq: 20
+      order: 3
+      type: diff_butterworth
+    type: df_chain
+  current:
+    cb_bias: 0.0
+    cb_scale: -1.0
+    name: Allegro ACS714-5
+    type: dsp_calib
+  ext_temp:
+    cb_bias: 61.64990234375
+    cb_mV_at_25C: 750.0
+    cb_mV_per_C: 10.0
+    cb_scale: 1.0
+    name: Analog TMP36
+    type: adc_linear_3V3
+  motor:
+    amplifier_resistance: 0.013599999999999999
+    current_sensor_type: measured
+    gear_ratio: 512.0
+    i_scale: 1.1000000000000001
+    max_efficiency: 93.0
+    max_pwm_duty: 3186.0
+    max_winding_temp: 125.0
+    mechanical_time_constant: 4.2000000000000002
+    model_type: model_v1
+    name: Maxon RE50 200W 24V 370354
+    no_load_current: 248.0
+    no_load_speed: 5778.0
+    nominal_current: 9.0399999999999991
+    nominal_speed: 5538.0
+    nominal_torque: 349.0
+    nominal_voltage: 24.0
+    rotor_inertia: 584.0
+    safe_thermal_pct: 0.90000000000000002
+    speed_constant: 241.0
+    speed_torque_gradient: 0.68700000000000006
+    stall_torque: 8416
+    starting_current: 212.0
+    temp_sensor_type: ambient
+    thermal_resistance_housing_ambient: 3.8100000000000001
+    thermal_resistance_rotor_housing: 2.27
+    thermal_time_constant_motor: 406.0
+    thermal_time_constant_winding: 137.0
+    torque_constant: 39.600000000000001
+    winding_inductance: 0.094
+    winding_resistance: 0.113
+  theta:
+    cb_bias: 250.17396081303792
+    cb_scale: -1.0
+    name: ContElec VertX13
+    type: vertx_14bit
+  torque:
+    cb_bias: 1.4055003662109375
+    cb_inv_torque:
+    - -0.0048839564757323572
+    - 1841.1355973847999
+    cb_scale: -0.001
+    cb_torque:
+    - -204.75202941894531
+    - 376976.25
+    description: TRS-1K
+    name: Linear torque-load cell
+    torque_shift: 8.0
+    type: adc_poly
+  torquedot_df:
+    cutoff_freq: 100
+    order: 3
+    type: diff_butterworth
+calibration_date: Thu Jun 28 15:12:25 2012
+description: max2_v2.0_seax2_v2.1
+ec_component: m3actuator_ec_mt5_j1
+ignore_bounds: 0
+joint_component: m3joint_mt5_j1
+name: m3actuator_mt5_j1
+param:
+  max_amp_current: 10000.0
+  max_amp_temp: 125.0
+  max_i: 8.0
+  max_overload_time: 3.0
+  max_tq: 200000.0
+  min_tq: -200000.0
+  pid_current:
+    k_d: 0.0
+    k_i: 0.0
+    k_i_limit: 0.0
+    k_i_range: 0.0
+    k_p: 1.0
+safe_pwm_limit: 1
+version: iq
