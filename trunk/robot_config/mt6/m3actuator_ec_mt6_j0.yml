@@ -4,7 +4,7 @@ ethercat:
   product_code: 1010
   serial_number: 770
 firmware: m3_controller_max2_bldc_a2r4
-name: m3actuator_ec_mt5_j0
+name: m3actuator_ec_mt6_j0
 param:
   bldc_mode: 1
   config: 0
@@ -24,5 +24,5 @@ param:
   qei_min: 0
   t_max: 16000
   t_min: 0
-pwr_component: m3pwr_pwr026
+pwr_component: m3pwr_pwr041
 version: esp

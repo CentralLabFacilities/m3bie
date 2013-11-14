@@ -86,10 +86,10 @@ calib:
     type: diff_butterworth
 calibration_date: Thu Jun 28 15:15:13 2012
 description: max2_v2.0_seax2_v2.1
-ec_component: m3actuator_ec_mt5_j0
+ec_component: m3actuator_ec_mt6_j0
 ignore_bounds: 0
-joint_component: m3joint_mt5_j0
-name: m3actuator_mt5_j0
+joint_component: m3joint_mt6_j0
+name: m3actuator_mt6_j0
 param:
   max_amp_current: 10000.0
   max_amp_temp: 125.0

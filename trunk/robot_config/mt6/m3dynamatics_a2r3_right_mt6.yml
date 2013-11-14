@@ -1,4 +1,4 @@
-chain_component: m3torso_mt5
+chain_component: m3torso_mt6
 links:
 - Ixx: 0.038982059999999999
   Ixy: -4.3000000000000001e-07
@@ -47,7 +47,7 @@ links:
   d: 0
   joint_offset: 0.0
   m: 0
-name: m3dynamatics_a2r3_right_mt5
+name: m3dynamatics_a2r3_right_mt6
 ndof: 3
 param:
   payload_com:

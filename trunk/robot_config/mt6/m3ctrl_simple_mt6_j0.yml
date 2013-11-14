@@ -1,5 +1,5 @@
-act_component: m3actuator_mt5_j0
-name: m3ctrl_simple_mt5_j0
+act_component: m3actuator_mt6_j0
+name: m3ctrl_simple_mt6_j0
 param:
   controller:
     current_limit: 1000.0
