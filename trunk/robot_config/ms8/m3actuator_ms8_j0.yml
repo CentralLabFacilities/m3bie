@@ -73,10 +73,10 @@ calib:
     type: diff_butterworth
 calibration_date: Fri Oct 26 14:57:47 2012
 description: bmw_v1.0
-ec_component: m3actuator_ec_ms7_j0
+ec_component: m3actuator_ec_ms8_j0
 ignore_bounds: 0
-joint_component: m3joint_ms7_j0
-name: m3actuator_ms7_j0
+joint_component: m3joint_ms8_j0
+name: m3actuator_ms8_j0
 disable_vertx_check_tq: true
 param:
   max_amp_current: 3500.0

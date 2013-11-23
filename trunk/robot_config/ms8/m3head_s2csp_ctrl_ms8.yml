@@ -1,5 +1,5 @@
-head_component: m3head_ms7
-name: m3head_s2csp_ctrl_ms7
+head_component: m3head_ms8
+name: m3head_s2csp_ctrl_ms8
 param:
   origin:
   - 0.125
@@ -23,6 +23,6 @@ param:
   - 3.0
   - 0.0
   - 0.0
-robot_component: m3humanoid_right_left_arm_head_mr17
+robot_component: m3humanoid_right_left_arm_head_mr18
 
 

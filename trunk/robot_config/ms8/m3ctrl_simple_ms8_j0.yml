@@ -1,5 +1,5 @@
-act_component: m3actuator_ms7_j0
-name: m3ctrl_simple_ms7_j0
+act_component: m3actuator_ms8_j0
+name: m3ctrl_simple_ms8_j0
 param:
   controller:
     current_limit: 1000.0

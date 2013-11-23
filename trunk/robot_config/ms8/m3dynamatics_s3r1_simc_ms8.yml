@@ -1,4 +1,4 @@
-chain_component: m3head_ms7
+chain_component: m3head_ms8
 links:
 - Ixx: 0.0021199000000000001
   Ixy: 1.3200000000000001e-06
@@ -28,7 +28,7 @@ links:
   d: 0.142025
   joint_offset: -90.0
   m: 0.40899999999999997
-name: m3dynamatics_s3r1_simc_ms7
+name: m3dynamatics_s3r1_simc_ms8
 ndof: 2
 param:
   payload_com:
