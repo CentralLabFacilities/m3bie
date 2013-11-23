@@ -61,6 +61,22 @@ chains:
     - 0.0
     - 0.0
     - 0.0
+  torso:
+    base_rotation_in_parent:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+    base_translation_in_parent:
+    - 0.0
+    - 0.0
+    - 0.0
+    chain_component: m3torso_mt6
   head:
     base_rotation_in_parent:
     - 1.0

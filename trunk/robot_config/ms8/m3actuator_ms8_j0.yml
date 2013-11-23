@@ -1,0 +1,95 @@
+calib:
+  amp_temp:
+    cb_bias: -5.1000000000000014
+    cb_scale: 0.01
+    name: Microchip TC1047, converted at dsp
+    type: dsp_calib
+  angle_df:
+    theta_df:
+      cutoff_freq: 80
+      order: 3
+      type: butterworth
+    thetadot_df:
+      cutoff_freq: 20
+      order: 3
+      type: diff_butterworth
+    thetadotdot_df:
+      cutoff_freq: 20
+      order: 3
+      type: diff_butterworth
+    type: df_chain
+  current:
+    cb_bias: 0.0
+    cb_scale: 1.0
+    name: Allegro ACS714-5.0
+    type: dsp_calib
+  ext_temp:
+    cb_bias: -4.7800000000000011
+    cb_scale: 0.01
+    name: Microchip TC1047, converted at dsp
+    type: dsp_calib
+  motor:
+    amplifier_resistance: 0.019
+    current_sensor_type: measured
+    gear_ratio: 100.0
+    i_scale: 1.0
+    max_efficiency: 85.4
+    max_pwm_duty: 3186.0
+    max_winding_temp: 125.0
+    mechanical_time_constant: 8.07
+    model_type: model_v2
+    name: Maxon EC45 Flat 70W 24V 397172
+    no_load_current: 232.0
+    no_load_speed: 6110.0
+    nominal_current: 3.26
+    nominal_speed: 4840.0
+    nominal_torque: 130.0
+    nominal_voltage: 24.0
+    rotor_inertia: 181.0
+    safe_thermal_pct: 0.8
+    speed_constant: 259.0
+    speed_torque_gradient: 4.26
+    stall_torque: 820.0
+    starting_current: 39.5
+    temp_sensor_type: ambient
+    thermal_resistance_housing_ambient: 3.1
+    thermal_resistance_rotor_housing: 4.3
+    thermal_time_constant_motor: 157.0
+    thermal_time_constant_winding: 28.8
+    torque_constant: 36.9
+    winding_inductance: 0.463
+    winding_resistance: 0.608
+    use_old_temp_values: true
+  theta:
+    cb_bias: -129.5
+    cb_scale: 1.0
+    name: ContElec VertX13
+    type: vertx_14bit
+  torque:
+    type: none
+  torquedot_df:
+    cutoff_freq: 100
+    order: 3
+    type: diff_butterworth
+calibration_date: Fri Oct 26 14:57:47 2012
+description: bmw_v1.0
+ec_component: m3actuator_ec_ms7_j0
+ignore_bounds: 0
+joint_component: m3joint_ms7_j0
+name: m3actuator_ms7_j0
+disable_vertx_check_tq: true
+param:
+  max_amp_current: 3500.0
+  max_amp_temp: 100.0
+  max_i: 1.0
+  max_overload_time: 3.0
+  max_tq: 4000.0
+  min_tq: -4000.0
+  pid_current:
+    k_d: 0.0
+    k_i: 0.0
+    k_i_limit: 0.0
+    k_i_range: 0.0
+    k_p: 1.0
+safe_pwm_limit: 1
+version: iq
