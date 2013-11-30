@@ -92,6 +92,6 @@ chains:
     - 0.0
     - 0.0
     - 0.077850000000000003
-    chain_component: m3head_ms5
-name: m3humanoid_right_left_arm_head_mr18
-pwr_component: m3pwr_pwr041
+    chain_component: m3head_ms8
+name: m3humanoid_right_left_arm_torso_head_mr18
+pwr_component: m3pwr_pwr038

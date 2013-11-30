@@ -2,10 +2,10 @@ chid: 0
 ethercat:
   pdo_version: actx1_pdo_v2
   product_code: 1010
-  serial_number: 1056
+  serial_number: 984
 firmware: m3_controller_elmo_z1r1
 ignore_pwm_slew: 1
-name: m3actuator_ec_mz6_j0
+name: m3actuator_ec_mz7_j0
 param:
   bldc_mode: 0
   config: 2560
@@ -20,10 +20,10 @@ param:
   k_p: 0
   k_p_shift: 0
   pwm_db: 0
-  pwm_max: 1000
+  pwm_max: 2048
   qei_max: 0
   qei_min: 0
   t_max: 500
   t_min: -500
-pwr_component: m3pwr_pwr038
+pwr_component: m3pwr_pwr042
 version: iss

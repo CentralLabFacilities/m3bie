@@ -20,13 +20,13 @@ inertial:
   #mass:  92 #kg   Minimal base (no festo, backpack) (92 w/no Al top)
   #mass:  135 #130 #kg   base + bimanual no casters no torso no head
   #mass:  100.960 #kg   Minimal base (no festo, backpack) (92 w/no Al top)
-  mass:  76.960 #kg   Minimal base (no festo, no backpack, NO CASTERS)(76 w/no Al top)
+  #mass:  76.960 #kg   Minimal base (no festo, no backpack, NO CASTERS)(76 w/no Al top)
   #mass: 114.5 # Base with Z-lift, no casters
-  #mass: 152.5 # base + bimanual no casters
+  mass: 152.5 # base + bimanual no casters
   #inertia_flat: 4.64 # kg*m^2  Minimal base (no festo, backpack)
-  inertia_flat: 2.0 # kg*m^2  Minimal base (no festo, no backpack, NO CASTERS) (2 w/o top)
+  #inertia_flat: 2.0 # kg*m^2  Minimal base (no festo, no backpack, NO CASTERS) (2 w/o top)
   #inertia_flat: 2.69784 # base w/Z-lift no casters
-  #inertia_flat: 9.0 #7.6226  # base + bimanusl no casters
+  inertia_flat: 9.0 #7.6226  # base + bimanusl no casters
 filter:
   FQD:  400 #350 #150 joint vel (maybe disabled)
   FXD:   75 #100 #52 local velocity LPF

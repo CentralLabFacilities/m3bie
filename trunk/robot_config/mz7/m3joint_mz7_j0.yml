@@ -1,11 +1,11 @@
-actuator_component: m3actuator_mz6_j0
+actuator_component: m3actuator_mz7_j0
 brake: auto
 calib:
   cb_gearing: 2.0
   cb_payload_mass: 30.0
   cb_screw_efficiency: 0.9
   cb_screw_pitch: 20.0
-name: m3joint_mz6_j0
+name: m3joint_mz7_j0
 param:
   kq_d: -0.2
   kq_g: 0.6
@@ -26,7 +26,7 @@ param:
 pwm_calibration_down: 128
 pwm_calibration_up: 400
 transmission:
-  act_name: m3actuator_mz6_j0
+  act_name: m3actuator_mz7_j0
   qj_to_qa:
   - 1.0
   qs_to_qj:

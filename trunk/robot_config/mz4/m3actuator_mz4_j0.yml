@@ -80,7 +80,7 @@ param:
   max_amp_current: 10000.0
   max_amp_temp: 125.0
   max_overload_time: 3.0
-  max_tq: 1500.0
-  min_tq: -1500.0
+  max_tq: 3200.0
+  min_tq: -3200.0
 safe_pwm_limit: 0
 version: iss

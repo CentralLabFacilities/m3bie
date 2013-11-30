@@ -61,7 +61,7 @@ calib:
     winding_resistance: 0.608
     use_old_temp_values: true    
   theta:
-    cb_bias: 168
+    cb_bias: 184
     cb_scale: -1.0
     name: ContElec VertX13
     type: vertx_14bit

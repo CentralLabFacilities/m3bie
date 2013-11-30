@@ -62,12 +62,13 @@ calib:
     winding_inductance: 0.094
     winding_resistance: 0.113
   theta:
-    cb_bias: 250.17396081303792
-    cb_scale: -1.0
+    cb_bias: -161.4239
+    cb_scale: 1.0
     name: ContElec VertX13
     type: vertx_14bit
   torque:
-    cb_bias: 1.4055003662109375
+#    cb_bias: -85.4
+    cb_bias: 85.4
     cb_inv_torque:
     - -0.0048839564757323572
     - 1841.1355973847999
@@ -81,7 +82,7 @@ calib:
     type: adc_poly
   torquedot_df:
     cutoff_freq: 100
-    order: 3
+    order: 1
     type: diff_butterworth
 calibration_date: Thu Jun 28 15:12:25 2012
 description: max2_v2.0_seax2_v2.1
@@ -95,8 +96,8 @@ param:
   max_amp_temp: 125.0
   max_i: 8.0
   max_overload_time: 3.0
-  max_tq: 200000.0
-  min_tq: -200000.0
+  max_tq: 300000.0
+  min_tq: -300000.0
   pid_current:
     k_d: 0.0
     k_i: 0.0

@@ -2,7 +2,7 @@ chid: 0
 ethercat:
   pdo_version: actx1_pdo_v4
   product_code: 1010
-  serial_number: 1018
+  serial_number: 1019
 firmware: m3_controller_bmw_a2r4
 name: m3actuator_ec_ms8_j0
 param:

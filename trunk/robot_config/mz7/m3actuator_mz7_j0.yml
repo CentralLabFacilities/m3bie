@@ -71,16 +71,16 @@ calib:
     order: 3
     type: diff_butterworth
 description: m3_elmo_v0_1_ocarina_10/60
-ec_component: m3actuator_ec_mz6_j0
+ec_component: m3actuator_ec_mz7_j0
 encoder_calib_req: 1
 ignore_bounds: 1
-joint_component: m3joint_mz6_j0
-name: m3actuator_mz6_j0
+joint_component: m3joint_mz7_j0
+name: m3actuator_mz7_j0
 param:
   max_amp_current: 10000.0
   max_amp_temp: 125.0
   max_overload_time: 3.0
-  max_tq: 1500.0
-  min_tq: -1500.0
+  max_tq: 3200.0
+  min_tq: -3200.0
 safe_pwm_limit: 0
 version: iss
