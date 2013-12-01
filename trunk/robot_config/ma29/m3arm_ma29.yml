@@ -1,5 +1,5 @@
-# dynamatics_component: m3dynamatics_right_fts_ma29
-dynamatics_component: m3dynamatics_right_h2R5_fts_ma29
+dynamatics_component: m3dynamatics_right_fts_ma29
+#dynamatics_component: m3dynamatics_right_h2R5_fts_ma29
 joint_components:
   J0: m3joint_ma29_j0
   J1: m3joint_ma29_j1

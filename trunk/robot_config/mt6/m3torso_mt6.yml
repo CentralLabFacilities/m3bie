@@ -1,4 +1,4 @@
-dynamatics_component: m3dynamatics_mt6
+dynamatics_component: m3dynamatics_bimanual_mt6
 joint_components:
   J0: m3joint_mt6_j0
   J1: m3joint_mt6_j1

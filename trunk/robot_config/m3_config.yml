@@ -84,7 +84,7 @@ rt_components:
     m3joint_mt6_j1: m3joint
     m3joint_slave_mt6_j2: m3joint_slave
     m3torso_mt6: m3torso
-    m3dynamatics_mt6: m3dynamatics
+    m3dynamatics_bimanual_mt6: m3dynamatics
   ma29:
     m3actuator_ma29_j0: m3actuator
     m3actuator_ma29_j1: m3actuator
@@ -108,7 +108,7 @@ rt_components:
     m3joint_ma29_j5: m3joint
     m3joint_ma29_j6: m3joint
     m3arm_ma29: m3arm
-    m3dynamatics_right_h2R5_fts_ma29: m3dynamatics
+    m3dynamatics_right_fts_ma29: m3dynamatics
     m3loadx6_ma29_l0: m3loadx6
   ma30:
     m3actuator_ma30_j0: m3actuator
@@ -133,7 +133,7 @@ rt_components:
     m3joint_ma30_j5: m3joint
     m3joint_ma30_j6: m3joint
     m3arm_ma30: m3arm
-    m3dynamatics_left_h2R5_fts_ma30: m3dynamatics
+    m3dynamatics_left_fts_ma30: m3dynamatics
     m3loadx6_ma30_l0: m3loadx6
   mr18:
     m3humanoid_right_left_arm_torso_head_mr18: m3humanoid  
