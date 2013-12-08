@@ -39,7 +39,7 @@ calib:
     max_pwm_duty: 3186.0
     max_winding_temp: 125.0
     mechanical_time_constant: 4.2
-    model_type: model_v1
+    model_type: model_v2
     name: Maxon RE50 200W 24V 370354
     no_load_current: 248.0
     no_load_speed: 5778.0
@@ -59,30 +59,30 @@ calib:
     thermal_time_constant_motor: 406.0
     thermal_time_constant_winding: 137.0
     torque_constant: 39.6
+    use_old_temp_values: true
     winding_inductance: 0.094
     winding_resistance: 0.113
   theta:
-    cb_bias: -161.4239
+    cb_bias: -163.7239
     cb_scale: 1.0
     name: ContElec VertX13
     type: vertx_14bit
   torque:
-#    cb_bias: 20.4
-#    cb_bias: -4.0
-#    cb_bias: -8.0 #.0003  falls too far
-#    cb_bias: -12.0 #.0004  
-#    cb_bias: -6.0 #.0002
-#    cb_bias: -7.0 #.00025
-#    cb_bias: -10.0 #.00025
-    cb_bias: -13.0 #.00025
+#    cb_bias: 15.0
+#    cb_bias: 10.0
+    cb_bias: 0.0
     cb_inv_torque:
     - -0.004883956475732357
     - 1841.1355973848
-#    cb_scale: -0.0003
-    cb_scale: -0.00025
+#    cb_scale: -0.001
+    cb_scale: 0.001
     cb_torque:
-    - -204.7520294189453
-    - 376976.25
+    - 25.89
+    - -42209
+#    - -90.579
+#    - 185503.9  
+#    - -204.7520294189453   
+#    - 376976.25
     description: TRS-1K
     name: Linear torque-load cell
     torque_shift: 8.0

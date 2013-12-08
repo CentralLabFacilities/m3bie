@@ -21,7 +21,9 @@ param:
     k_i_range: 15000.0
 #    k_p: -0.14999999999999999
 #    k_p: -0.08
-    k_p: -0.65
+#    k_p: -0.65
+#    k_p: -0.32
+    k_p: -0.15
     k_slew_max: 0.0
   traj_current:
     amp: 2.0

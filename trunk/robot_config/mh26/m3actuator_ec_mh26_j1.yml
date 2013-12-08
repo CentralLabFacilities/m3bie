@@ -6,7 +6,7 @@ ethercat:
 firmware: m3_controller_hb2_h2r3_j0j1
 name: m3actuator_ec_mh26_j1
 param:
-  config: 2
+  config: 18
   k_d: 0
   k_d_shift: 0
   k_ff: 0
@@ -20,8 +20,8 @@ param:
   pwm_db: 0
   pwm_max: 1000
   qei_max: 17000
-  qei_min: 4000
+  qei_min: 4200
   t_max: 4096
   t_min: 0
-pwr_component: m3pwr_pwr041
+pwr_component: m3pwr_pwr038
 version: iss

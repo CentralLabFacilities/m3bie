@@ -19,9 +19,9 @@ param:
   k_p_shift: 0
   pwm_db: 0
   pwm_max: 2000
-  qei_max: 19000
+  qei_max: 18000
   qei_min: 2000
   t_max: 4096
   t_min: 0
-pwr_component: m3pwr_pwr041
+pwr_component: m3pwr_pwr038
 version: iss

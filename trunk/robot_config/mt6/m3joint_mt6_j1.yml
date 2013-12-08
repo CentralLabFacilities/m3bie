@@ -4,21 +4,21 @@ calibration_date: Thu Jun 28 15:12:25 2012
 control_component: m3ctrl_simple_mt6_j1
 name: m3joint_mt6_j1
 param:
-  kq_d: -2000.0
-  kq_g: 1.0
-  kq_i: -4.0
-  kq_i_limit: 100000.0
+  kq_d: -700.0
+  kq_g: 0.7
+  kq_i: 0.0
+  kq_i_limit: 70000.0
   kq_i_range: 10000.0
-  kq_p: -20000.0
+  kq_p: -10000.0
   kt_d: 0.0
   kt_i: 0.0
   kt_i_limit: 0.0
   kt_i_range: 0.0
   kt_p: 0.0
-  max_q: 27.0
+  max_q: 20.0
   max_q_pad: 0.0
-  max_q_slew_rate: 45.0
-  min_q: -12.0
+  max_q_slew_rate: 5.0
+  min_q: -5.0
   min_q_pad: 0.0
 transmission:
   act_name: m3actuator_mt6_j1

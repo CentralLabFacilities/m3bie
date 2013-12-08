@@ -73,7 +73,7 @@ calib:
     name: US Digital MA3
     type: ma3_12bit
   torque:
-    cb_bias: 67.01064579188824
+    cb_bias: -375.0010015964508
     cb_inv_torque:
     - 1.6634177048145293
     - 1895.5666107574357
@@ -87,7 +87,7 @@ calib:
     cutoff_freq: 100
     order: 3
     type: diff_butterworth
-calibration_date: Tue Nov 12 16:04:40 2013
+calibration_date: Sat Dec  7 18:17:17 2013
 description: hb2dig_v0.2_hb2amp_v0.2
 ec_component: m3actuator_ec_mh26_j4
 ignore_bounds: 0

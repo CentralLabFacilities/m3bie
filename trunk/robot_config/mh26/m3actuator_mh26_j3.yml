@@ -68,7 +68,7 @@ calib:
     winding_inductance: 1.31
     winding_resistance: 53.3
   theta:
-    cb_bias: 308.0
+    cb_bias: 319.0
     cb_scale: -1.0000001192092896
     name: US Digital MA3
     type: ma3_12bit

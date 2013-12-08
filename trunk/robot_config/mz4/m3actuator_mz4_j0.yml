@@ -25,7 +25,7 @@ calib:
   motor:
     amplifier_resistance: 0.0136
     current_sensor_type: controlled
-    gear_ratio: 0.0
+    gear_ratio: 2.0
     i_scale: 1.0
     max_efficiency: 90.0
     max_pwm_duty: 2048.0

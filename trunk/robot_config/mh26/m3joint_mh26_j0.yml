@@ -8,13 +8,13 @@ param:
   kq_i: 0.0
   kq_i_limit: 35.0
   kq_i_range: 45.0
-  kq_p: -6.0
+  kq_p: -12.0
   kt_d: 0.0
   kt_i: 0.0
   kt_i_limit: 0.0
   kt_i_range: 0.0
   kt_p: 0.0
-  max_q: 133.98408675637296
+  max_q: 115.984
   max_q_pad: 0.0
   max_q_slew_rate: 300
   min_q: 1.015913243627054
