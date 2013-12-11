@@ -1,7 +1,7 @@
 ndof_chains:
   right_arm: 7
   left_arm: 7
-  torso: 0
-  head: 12
+  torso: 2
+  head: 2
   right_hand: 5
   left_hand: 5

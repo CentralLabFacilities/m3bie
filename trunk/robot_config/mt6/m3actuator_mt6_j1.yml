@@ -110,6 +110,6 @@ param:
     k_i: 0.0
     k_i_limit: 0.0
     k_i_range: 0.0
-    k_p: 1.0
+    k_p: 1.0   
 safe_pwm_limit: 1
 version: iq

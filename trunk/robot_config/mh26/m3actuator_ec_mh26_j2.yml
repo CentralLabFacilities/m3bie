@@ -1,4 +1,7 @@
 chid: 0
+config:
+  dont_check_qei_vertx_err: true
+  dont_check_tq_vertx_err: true
 ethercat:
   pdo_version: actx3_pdo_v1
   product_code: 1012

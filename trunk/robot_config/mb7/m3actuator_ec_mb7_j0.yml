@@ -24,5 +24,8 @@ param:
   t_max: 0
   t_min: 0
   bldc_mode: 0
+config:
+  dont_check_qei_vertx_err: true
+  dont_check_tq_vertx_err: true
 pwr_component: m3pwr_pwr042
 version: iss

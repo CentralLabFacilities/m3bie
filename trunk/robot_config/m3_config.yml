@@ -21,9 +21,9 @@ rt_components:
   mz7:
     m3actuator_mz7_j0: m3actuator
     m3joint_mz7_j0: m3joint_zlift
-#     m3joint_shm_mz4_j0: m3joint_zlift_shm
+    m3joint_shm_mz7_j0: m3joint_zlift_shm
   mb7:
-#     m3omnibase_shm_mb7: m3omnibase_shm
+    m3omnibase_shm_mb7: m3omnibase_shm
     m3omnibase_mb7: m3omnibase
     m3joint_array_mb7: m3joint_array
     m3actuator_mb7_j0: m3actuator
@@ -145,7 +145,7 @@ rt_components:
 #     m3humanoid_left_arm_mr18: m3humanoid
 #     m3humanoid_right_arm_head_mr18: m3humanoid
 #     m3humanoid_shm18: m3humanoid_shm
-
+# 
 ec_components:
   mh26:
     m3actuator_ec_mh26_j0: m3actuator_ec
