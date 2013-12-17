@@ -106,7 +106,7 @@ name: m3dynamatics_left_h2R5_fts_ma30
 ndof: 7
 param:
   payload_com:
-  - -0.0028600399999999999
+  - 0.0028600399999999999
   - 0.0020675400000000001
   - 0.06242752
   payload_inertia:

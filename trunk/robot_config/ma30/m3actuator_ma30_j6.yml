@@ -66,7 +66,7 @@ calib:
     name: ContElec VertX13
     type: vertx_14bit
   torque:
-    cb_bias: -10.182102786230544
+    cb_bias: -10.16704
     cb_inv_torque:
     - 1.0
     - 0.0
@@ -80,7 +80,7 @@ calib:
     cutoff_freq: 100
     order: 3
     type: diff_butterworth
-calibration_date: Tue Nov 12 12:33:16 2013
+calibration_date: Thu Dec 12 14:46:29 2013
 description: bmw_v1.0
 ec_component: m3actuator_ec_ma30_j6
 ignore_bounds: 0

@@ -19,7 +19,7 @@ param:
     k_i: 0.0
     k_i_limit: 1.0
     k_i_range: 15000.0
-    k_p: 0.7
+    k_p: 0.8
 #    k_p: 1.0
     k_slew_max: 0.0
   traj_current:
