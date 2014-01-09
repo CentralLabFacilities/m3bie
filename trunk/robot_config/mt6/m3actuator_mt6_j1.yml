@@ -68,21 +68,14 @@ calib:
     name: ContElec VertX13
     type: vertx_14bit
   torque:
-#    cb_bias: 15.0
-#    cb_bias: 10.0
     cb_bias: 0.0
     cb_inv_torque:
     - -0.004883956475732357
     - 1841.1355973848
-#    cb_scale: -0.001
     cb_scale: 0.001
     cb_torque:
-    - 25.89
-    - -42209
-#    - -90.579
-#    - 185503.9  
-#    - -204.7520294189453   
-#    - 376976.25
+    - 106.43
+    - -225321
     description: TRS-1K
     name: Linear torque-load cell
     torque_shift: 8.0
@@ -103,13 +96,13 @@ param:
   max_amp_temp: 125.0
   max_i: 8.0
   max_overload_time: 3.0
-  max_tq: 500000.0
-  min_tq: -500000.0
+  max_tq: 113000.0
+  min_tq: -169000.0
   pid_current:
     k_d: 0.0
     k_i: 0.0
     k_i_limit: 0.0
     k_i_range: 0.0
-    k_p: 1.0   
+    k_p: 1.0
 safe_pwm_limit: 1
 version: iq

@@ -8,7 +8,7 @@ param:
   kq_i: 0.0
   kq_i_limit: 35.0
   kq_i_range: 45.0
-  kq_p: -12.0
+  kq_p: -20.0
   kt_d: 0.0
   kt_i: 0.0
   kt_i_limit: 0.0

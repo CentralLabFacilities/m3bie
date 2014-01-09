@@ -1,8 +1,8 @@
 chid: 0
 config:
+  dont_check_tq_vertx_err: true
   has_brake: true
   over_ride_ext_temp: m3actuator_ec_mt6_j0
-  dont_check_tq_vertx_err: true   
 ethercat:
   pdo_version: actx1_pdo_v4
   product_code: 1010

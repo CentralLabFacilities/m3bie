@@ -5,17 +5,17 @@ control_component: m3ctrl_simple_mt6_j1
 name: m3joint_mt6_j1
 param:
   kq_d: -700.0
-  kq_g: 0.7
+  kq_g: 1.1
   kq_i: 0.0
   kq_i_limit: 70000.0
   kq_i_range: 10000.0
-  kq_p: -10000.0
+  kq_p: -11000.0
   kt_d: 0.0
   kt_i: 0.0
   kt_i_limit: 0.0
   kt_i_range: 0.0
   kt_p: 0.0
-  max_q: 20.0
+  max_q: 45.0
   max_q_pad: 0.0
   max_q_slew_rate: 5.0
   min_q: -5.0

@@ -50,7 +50,8 @@ geometry:
   steering_offsets: [0, 0, 0, 0] # encoder ticks FIX ME WHEN NEW WHEELS INSTALLED
 #  steering_offsets: [-103, -110, -83, -113] # encoder ticks
 kinematics:
-  abs_max_linear_velocity: 1.0 # m/s
+#  abs_max_linear_velocity: 1.0 # m/s
+  abs_max_linear_velocity: 0.5 # m/s
   abs_max_linear_acceleration: 2.0 # m/s^2
   abs_max_rotation_velocity: 2.0 # rad/s  
   abs_max_rotation_acceleration: 4.0 # rad/s^2  .15rad=8.5deg
