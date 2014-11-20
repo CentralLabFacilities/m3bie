@@ -1,3 +1,4 @@
+config_path: /home/meka/Sandbox/mekabot/m3bie/virtual_meka/robot_config/
 factory_py_libs:
 - /usr/local/lib/python2.7/dist-packages/m3/m3meka_factory_proxy.py
 factory_rt_libs:
@@ -7,143 +8,131 @@ factory_rt_libs:
 - /usr/local/lib/libm3robots.so
 - /usr/local/lib/libm3robot_ctrl.so
 - /usr/local/lib/libm3vehicles.so
-#- /home/meka/mekabot/m3ens/lib/libcontroller_example.so
-hostname: meka-mud
-left_hand: m3hand_mh28
-right_hand: m3hand_mh16
+hostname: meka-mariposa
+left_hand: m3hand_mh26
+right_hand: m3hand_mh24
 rt_components:
-#  - controllers: 
-#    - m3example_test: m3example
 - sys:
   - m3monitor_m0: m3monitor
-- mz2:
-   - m3actuator_mz2_j0: m3actuator_virtual
-   - m3joint_mz2_j0: m3joint_zlift_virtual
-   - m3joint_shm_mz2_j0: m3joint_zlift_shm
-- ma17:
-  -  m3actuator_ma17_j0: m3actuator_virtual
-  -  m3actuator_ma17_j1: m3actuator_virtual
-  -  m3actuator_ma17_j2: m3actuator_virtual
-  -  m3actuator_ma17_j3: m3actuator_virtual
-  -  m3actuator_ma17_j4: m3actuator_virtual
-  -  m3actuator_ma17_j5: m3actuator_virtual
-  -  m3actuator_ma17_j6: m3actuator_virtual
-  -  m3ctrl_simple_ma17_j0: m3ctrl_simple
-  -  m3ctrl_simple_ma17_j1: m3ctrl_simple
-  -  m3ctrl_simple_ma17_j2: m3ctrl_simple
-  -  m3ctrl_simple_ma17_j3: m3ctrl_simple
-  -  m3ctrl_simple_ma17_j4: m3ctrl_simple
-  -  m3ctrl_simple_ma17_j5: m3ctrl_simple
-  -  m3ctrl_simple_ma17_j6: m3ctrl_simple
-  -  m3joint_ma17_j0: m3joint_virtual
-  -  m3joint_ma17_j1: m3joint_virtual
-  -  m3joint_ma17_j2: m3joint_virtual
-  -  m3joint_ma17_j3: m3joint_virtual
-  -  m3joint_ma17_j4: m3joint_virtual
-  -  m3joint_ma17_j5: m3joint_virtual
-  -  m3joint_ma17_j6: m3joint_virtual
-  -  m3dynamatics_right_ma17: m3dynamatics
-  -  m3arm_ma17: m3arm
-- ma20:
-  -  m3actuator_ma20_j0: m3actuator_virtual
-  -  m3actuator_ma20_j1: m3actuator_virtual
-  -  m3actuator_ma20_j2: m3actuator_virtual
-  -  m3actuator_ma20_j3: m3actuator_virtual
-  -  m3actuator_ma20_j4: m3actuator_virtual
-  -  m3actuator_ma20_j5: m3actuator_virtual
-  -  m3actuator_ma20_j6: m3actuator_virtual
-  -  m3ctrl_simple_ma20_j0: m3ctrl_simple
-  -  m3ctrl_simple_ma20_j1: m3ctrl_simple
-  -  m3ctrl_simple_ma20_j2: m3ctrl_simple
-  -  m3ctrl_simple_ma20_j3: m3ctrl_simple
-  -  m3ctrl_simple_ma20_j4: m3ctrl_simple
-  -  m3ctrl_simple_ma20_j5: m3ctrl_simple
-  -  m3ctrl_simple_ma20_j6: m3ctrl_simple
-  -  m3joint_ma20_j0: m3joint_virtual
-  -  m3joint_ma20_j1: m3joint_virtual
-  -  m3joint_ma20_j2: m3joint_virtual
-  -  m3joint_ma20_j3: m3joint_virtual
-  -  m3joint_ma20_j4: m3joint_virtual
-  -  m3joint_ma20_j5: m3joint_virtual
-  -  m3joint_ma20_j6: m3joint_virtual
-  -  m3dynamatics_left_h2R5_ma20: m3dynamatics
-  -  m3arm_ma20: m3arm
-- mb2:
-  -  m3actuator_mb2_j0: m3actuator_virtual
-  -  m3actuator_mb2_j1: m3actuator_virtual
-  -  m3actuator_mb2_j2: m3actuator_virtual
-  -  m3actuator_mb2_j3: m3actuator_virtual
-  -  m3actuator_mb2_j4: m3actuator_virtual
-  -  m3actuator_mb2_j5: m3actuator_virtual
-  -  m3actuator_mb2_j6: m3actuator_virtual
-  -  m3actuator_mb2_j7: m3actuator_virtual
-  -  m3joint_mb2_j0: m3joint_virtual
-  -  m3joint_mb2_j1: m3joint_virtual
-  -  m3joint_mb2_j2: m3joint_virtual
-  -  m3joint_mb2_j3: m3joint_virtual
-  -  m3joint_mb2_j4: m3joint_virtual
-  -  m3joint_mb2_j5: m3joint_virtual
-  -  m3joint_mb2_j6: m3joint_virtual
-  -  m3joint_mb2_j7: m3joint_virtual
-  -  m3joint_array_mb2: m3joint_array
-  -  m3omnibase_mb2: m3omnibase
-  -  m3omnibase_shm_mb2: m3omnibase_shm
-- mh16:
-  -  m3actuator_mh16_j0: m3actuator_virtual
-  -  m3actuator_mh16_j1: m3actuator_virtual
-  -  m3actuator_mh16_j2: m3actuator_virtual
-  -  m3actuator_mh16_j3: m3actuator_virtual
-  -  m3actuator_mh16_j4: m3actuator_virtual
-  -  m3joint_mh16_j0: m3joint_virtual
-  -  m3joint_mh16_j1: m3joint_virtual
-  -  m3joint_mh16_j2: m3joint_virtual
-  -  m3joint_mh16_j3: m3joint_virtual
-  -  m3joint_mh16_j4: m3joint_virtual
-  -  m3hand_mh16: m3hand
-- mh28:
-  -  m3actuator_mh28_j0: m3actuator_virtual
-  -  m3actuator_mh28_j1: m3actuator_virtual
-  -  m3actuator_mh28_j2: m3actuator_virtual
-  -  m3actuator_mh28_j3: m3actuator_virtual
-  -  m3actuator_mh28_j4: m3actuator_virtual
-  -  m3joint_mh28_j0: m3joint_virtual
-  -  m3joint_mh28_j1: m3joint_virtual
-  -  m3joint_mh28_j2: m3joint_virtual
-  -  m3joint_mh28_j3: m3joint_virtual
-  -  m3joint_mh28_j4: m3joint_virtual
-  -  m3hand_mh28: m3hand
-- ms4:
-  -  m3actuator_ms4_j0: m3actuator_virtual
-  -  m3actuator_ms4_j1: m3actuator_virtual
-  -  m3actuator_ms4_j2: m3actuator_virtual
-  -  m3actuator_ms4_j3: m3actuator_virtual
-  -  m3actuator_ms4_j4: m3actuator_virtual
-  -  m3actuator_ms4_j5: m3actuator_virtual
-  -  m3actuator_ms4_j6: m3actuator_virtual
-  -  m3actuator_ms4_j7: m3actuator_virtual
-  -  m3ctrl_simple_ms4_j0: m3ctrl_simple
-  -  m3ctrl_simple_ms4_j1: m3ctrl_simple
-  -  m3ctrl_simple_ms4_j2: m3ctrl_simple
-  -  m3ctrl_simple_ms4_j3: m3ctrl_simple
-  -  m3ctrl_simple_ms4_j4: m3ctrl_simple
-  -  m3ctrl_simple_ms4_j5: m3ctrl_simple
-  -  m3ctrl_simple_ms4_j6: m3ctrl_simple
-  -  m3ctrl_simple_ms4_j7: m3ctrl_simple
-  -  m3joint_ms4_j0: m3joint_virtual
-  -  m3joint_ms4_j1: m3joint_virtual
-  -  m3joint_ms4_j2: m3joint_virtual
-  -  m3joint_ms4_j3: m3joint_virtual
-  -  m3joint_ms4_j4: m3joint_virtual
-  -  m3joint_ms4_j5: m3joint_virtual
-  -  m3joint_ms4_j6: m3joint_virtual
-  -  m3joint_ms4_j7: m3joint_virtual
-  -  m3dynamatics_s2r1_ens_ms4: m3dynamatics
-  -  m3head_ms4: m3head
-  -  m3head_s2csp_ctrl_ms4: m3head_s2csp_ctrl
+- mz7:
+  - m3actuator_mz7_j0: m3actuator_virtual
+  - m3joint_mz7_j0: m3joint_zlift_virtual
+  - m3joint_shm_mz7_j0: m3joint_zlift_shm
+- ma29:
+  - m3actuator_ma29_j0: m3actuator_virtual
+  - m3actuator_ma29_j1: m3actuator_virtual
+  - m3actuator_ma29_j2: m3actuator_virtual
+  - m3actuator_ma29_j3: m3actuator_virtual
+  - m3actuator_ma29_j4: m3actuator_virtual
+  - m3actuator_ma29_j5: m3actuator_virtual
+  - m3actuator_ma29_j6: m3actuator_virtual
+  - m3ctrl_simple_ma29_j0: m3ctrl_simple
+  - m3ctrl_simple_ma29_j1: m3ctrl_simple
+  - m3ctrl_simple_ma29_j2: m3ctrl_simple
+  - m3ctrl_simple_ma29_j3: m3ctrl_simple
+  - m3ctrl_simple_ma29_j4: m3ctrl_simple
+  - m3ctrl_simple_ma29_j5: m3ctrl_simple
+  - m3ctrl_simple_ma29_j6: m3ctrl_simple
+  - m3joint_ma29_j0: m3joint_virtual
+  - m3joint_ma29_j1: m3joint_virtual
+  - m3joint_ma29_j2: m3joint_virtual
+  - m3joint_ma29_j3: m3joint_virtual
+  - m3joint_ma29_j4: m3joint_virtual
+  - m3joint_ma29_j5: m3joint_virtual
+  - m3joint_ma29_j6: m3joint_virtual
+  - m3dynamatics_right_ma29: m3dynamatics
+  - m3arm_ma29: m3arm
+- ma30:
+  - m3actuator_ma30_j0: m3actuator_virtual
+  - m3actuator_ma30_j1: m3actuator_virtual
+  - m3actuator_ma30_j2: m3actuator_virtual
+  - m3actuator_ma30_j3: m3actuator_virtual
+  - m3actuator_ma30_j4: m3actuator_virtual
+  - m3actuator_ma30_j5: m3actuator_virtual
+  - m3actuator_ma30_j6: m3actuator_virtual
+  - m3ctrl_simple_ma30_j0: m3ctrl_simple
+  - m3ctrl_simple_ma30_j1: m3ctrl_simple
+  - m3ctrl_simple_ma30_j2: m3ctrl_simple
+  - m3ctrl_simple_ma30_j3: m3ctrl_simple
+  - m3ctrl_simple_ma30_j4: m3ctrl_simple
+  - m3ctrl_simple_ma30_j5: m3ctrl_simple
+  - m3ctrl_simple_ma30_j6: m3ctrl_simple
+  - m3joint_ma30_j0: m3joint_virtual
+  - m3joint_ma30_j1: m3joint_virtual
+  - m3joint_ma30_j2: m3joint_virtual
+  - m3joint_ma30_j3: m3joint_virtual
+  - m3joint_ma30_j4: m3joint_virtual
+  - m3joint_ma30_j5: m3joint_virtual
+  - m3joint_ma30_j6: m3joint_virtual
+  - m3dynamatics_left_ma30: m3dynamatics
+  - m3arm_ma30: m3arm
+- mb7:
+  - m3actuator_mb7_j0: m3actuator_virtual
+  - m3actuator_mb7_j1: m3actuator_virtual
+  - m3actuator_mb7_j2: m3actuator_virtual
+  - m3actuator_mb7_j3: m3actuator_virtual
+  - m3actuator_mb7_j4: m3actuator_virtual
+  - m3actuator_mb7_j5: m3actuator_virtual
+  - m3actuator_mb7_j6: m3actuator_virtual
+  - m3actuator_mb7_j7: m3actuator_virtual
+  - m3joint_mb7_j0: m3joint_virtual
+  - m3joint_mb7_j1: m3joint_virtual
+  - m3joint_mb7_j2: m3joint_virtual
+  - m3joint_mb7_j3: m3joint_virtual
+  - m3joint_mb7_j4: m3joint_virtual
+  - m3joint_mb7_j5: m3joint_virtual
+  - m3joint_mb7_j6: m3joint_virtual
+  - m3joint_mb7_j7: m3joint_virtual
+  - m3joint_array_mb7: m3joint_array
+  - m3omnibase_mb7: m3omnibase
+  - m3omnibase_shm_mb7: m3omnibase_shm
+- mh24:
+  - m3actuator_mh24_j0: m3actuator_virtual
+  - m3actuator_mh24_j1: m3actuator_virtual
+  - m3actuator_mh24_j2: m3actuator_virtual
+  - m3actuator_mh24_j3: m3actuator_virtual
+  - m3actuator_mh24_j4: m3actuator_virtual
+  - m3joint_mh24_j0: m3joint_virtual
+  - m3joint_mh24_j1: m3joint_virtual
+  - m3joint_mh24_j2: m3joint_virtual
+  - m3joint_mh24_j3: m3joint_virtual
+  - m3joint_mh24_j4: m3joint_virtual
+  - m3hand_mh24: m3hand
+- mh26:
+  - m3actuator_mh26_j0: m3actuator_virtual
+  - m3actuator_mh26_j1: m3actuator_virtual
+  - m3actuator_mh26_j2: m3actuator_virtual
+  - m3actuator_mh26_j3: m3actuator_virtual
+  - m3actuator_mh26_j4: m3actuator_virtual
+  - m3joint_mh26_j0: m3joint_virtual
+  - m3joint_mh26_j1: m3joint_virtual
+  - m3joint_mh26_j2: m3joint_virtual
+  - m3joint_mh26_j3: m3joint_virtual
+  - m3joint_mh26_j4: m3joint_virtual
+  - m3hand_mh26: m3hand
+- ms8:
+  - m3actuator_ms8_j0: m3actuator_virtual
+  - m3actuator_ms8_j1: m3actuator_virtual
+  - m3ctrl_simple_ms8_j0: m3ctrl_simple
+  - m3ctrl_simple_ms8_j1: m3ctrl_simple
+  - m3joint_ms8_j0: m3joint_virtual
+  - m3joint_ms8_j1: m3joint_virtual
+  - m3dynamatics_s3r1_simc_ms8: m3dynamatics
+  - m3head_ms8: m3head
+- mt6:
+  - m3actuator_mt6_j0: m3actuator_virtual
+  - m3actuator_mt6_j1: m3actuator_virtual
+  - m3ctrl_simple_mt6_j0: m3ctrl_simple
+  - m3ctrl_simple_mt6_j1: m3ctrl_simple
+  - m3joint_mt6_j0: m3joint_virtual
+  - m3joint_mt6_j1: m3joint_virtual
+  - m3joint_slave_mt6_j2: m3joint_slave
+  - m3torso_mt6: m3torso
+  - m3dynamatics_bimanual_mt6: m3dynamatics
 - pwr:
-  -  m3pwr_pwr028: m3pwr_virtual
-  -  m3pwr_pwr029: m3pwr_virtual
-- mr12:
-  -  m3humanoid_right_left_arm_head_mr12: m3humanoid
-  -  m3humanoid_shm12: m3humanoid_shm
-sys_test: ens
+  - m3pwr_pwr042: m3pwr_virtual
+  - m3pwr_pwr038: m3pwr_virtual
+- mr18:
+  - m3humanoid_right_left_arm_torso_head_mr18: m3humanoid
+  - m3humanoid_shm18: m3humanoid_shm
+sys_test: bie

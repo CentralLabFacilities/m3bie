@@ -1,0 +1,29 @@
+calib:
+  current:
+    cb_bias: 271.14813502526869
+    cb_mV_per_A: -185.0
+    cb_scale: 1.0
+    cb_ticks_at_zero_a: 2048.0
+    cb_ticks_at_zero_b: 2048.0
+    name: Allegro ACS712-05
+    type: adc_linear_5V
+  voltage:
+    cb_bias: 0.0
+    cb_inv_voltage:
+    - 32.126807051285695
+    - 2069.6814034113468
+    cb_scale: 1.0
+    cb_voltage:
+    - 0.031126653775572777
+    - -64.422256469726562
+    type: adc_poly
+calibration_date: Tue Oct  2 12:26:47 2012
+ec_component: m3pwr_ec_pwr042
+firmware: m3_controller_pwr_0_5
+ignore_bounds: 0
+name: m3pwr_pwr042
+param:
+  max_bus_voltage: 36.0
+  max_current_digital: 5000
+  min_bus_voltage: 18.0
+version: iss

@@ -1,0 +1,44 @@
+actuator_component: m3actuator_ma29_j6
+brake: none
+calibration_date: Wed Aug 28 16:49:17 2013
+control_component: m3ctrl_simple_ma29_j6
+name: m3joint_ma29_j6
+param:
+  kq_d: -2.0
+  kq_d_tq_gm: 0.0
+  kq_g: 1.0
+  kq_i: 0.0
+  kq_i_limit: 0.0
+  kq_i_limit_tq_gm: 1000.0
+  kq_i_range: 0.0
+  kq_i_range_tq_gm: 1000.0
+  kq_i_tq_gm: 0.001
+  kq_p: -80.0
+  kq_p_tq_gm: 0.0
+  kt_d: 0.0
+  kt_i: 0.0
+  kt_i_limit: 0.0
+  kt_i_range: 0.0
+  kt_p: 0.0
+  max_q: 60.28566196667277
+  max_q_pad: 0.0
+  max_q_slew_rate: 100.0
+  min_q: -60.28566196667277
+  min_q_pad: 0.0
+transmission:
+  act_name: m3actuator_ma29_j6
+  cpj_name: m3joint_ma29_j5
+  qj_to_qa:
+  - -1.1905
+  - 1.1905
+  qs_to_qj:
+  - 1.0
+  - 0.0
+  tqj_to_tqa:
+  - -0.42
+  - 0.42
+  tqs_to_tqj:
+  - -1.1905
+  - 1.1905
+  type: differential
+version: iq

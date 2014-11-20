@@ -1,0 +1,39 @@
+actuator_component: m3actuator_ma29_j4
+brake: none
+calibration_date: Wed Aug 28 16:48:48 2013
+control_component: m3ctrl_simple_ma29_j4
+name: m3joint_ma29_j4
+param:
+  kq_d: -1.5
+  kq_d_tq_gm: 0.0
+  kq_g: 1.0
+  kq_i: 0.0
+  kq_i_limit: 0.0
+  kq_i_limit_tq_gm: 1000.0
+  kq_i_range: 0.0
+  kq_i_range_tq_gm: 1000.0
+  kq_i_tq_gm: 0.001
+  kq_p: -60.0
+  kq_p_tq_gm: 0.0
+  kt_d: -0.01
+  kt_i: 0.0
+  kt_i_limit: 0.0
+  kt_i_range: 0.0
+  kt_p: -2.0
+  max_q: 199.34261124336203
+  max_q_pad: 0.0
+  max_q_slew_rate: 200.0
+  min_q: -19.34261124336203
+  min_q_pad: 0.0
+transmission:
+  act_name: m3actuator_ma29_j4
+  qj_to_qa:
+  - 1.0
+  qs_to_qj:
+  - 1.0
+  tqj_to_tqa:
+  - 1.0
+  tqs_to_tqj:
+  - 1.0
+  type: gear
+version: iq

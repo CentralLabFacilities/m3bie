@@ -1,0 +1,40 @@
+chains:
+  right_arm:
+    arm_model: a2r2_right
+    base_rotation_in_parent:
+    - 0.0
+    - 0.0
+    - 1.0
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+    - 0.0
+    base_translation_in_parent:
+    - 0.0
+    - 0.0
+    - 0.0
+    chain_component: m3arm_ma29
+    force_shm_mode: false
+##################################################
+  torso:
+    base_rotation_in_parent:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+    base_translation_in_parent:
+    - 0.0
+    - 0.0
+    - 0.0
+    chain_component: m3torso_mt6
+    force_shm_mode: false
+name: m3humanoid_right_arm_torso_mr18
+pwr_component: m3pwr_pwr041
+startup_motor_pwr_on: false

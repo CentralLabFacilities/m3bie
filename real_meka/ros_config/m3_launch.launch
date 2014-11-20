@@ -1,8 +1,7 @@
 <launch>
 
   <!-- send pr2_l_arm.xml to param server -->
-  <!-- param name="robot_description" command="$(find xacro)/xacro.py '$(find m3_description)/robots/hnd.urdf.xacro'" /-->
-  <param name="robot_description" command="$(find xacro)/xacro.py '$(find m3_description)/robots/uta.urdf.xacro'" />
+  <param name="robot_description" command="$(find xacro)/xacro.py '$(find meka_description)/robots/simc.urdf.xacro'" />
 
   <node pkg="rviz" type="rviz" respawn="false" output="screen" name="rviz" 
     args="-d '$(find m3_defs_ros)/m3_rviz.vcg'"/>

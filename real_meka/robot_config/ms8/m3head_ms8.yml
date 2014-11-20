@@ -1,0 +1,39 @@
+dynamatics_component: m3dynamatics_s3r1_simc_ms8
+eyes:
+  left:
+    rotation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+    - 0.0
+    - -1.0
+    - 0.0
+    translation:
+    - 0.0
+    - 0.0
+    - -0.053
+  right:
+    rotation:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+    - 0.0
+    - -1.0
+    - 0.0
+    translation:
+    - 0.0
+    - 0.0
+    - 0.053
+joint_components:
+  J0: m3joint_ms8_j0
+  J1: m3joint_ms8_j1  
+limb_name: head
+name: m3head_ms8
+ndof: 2
+version: iss

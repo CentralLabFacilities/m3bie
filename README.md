@@ -1,2 +1,2 @@
-# M3ens - Robot config
-This repository contains the configuration files for the Meka Robot at Ensta ParisTech
+# M3bie - Robot config
+This repository contains the configuration files for the Meka Robot at CITEC, University of Bielefeld

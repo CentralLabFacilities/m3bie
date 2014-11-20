@@ -1,0 +1,23 @@
+#holomni_pcv_config: mb5/pcv_meka_b2r2.yml.carpet.fast
+#holomni_pcv_config: mb5/pcv_meka_b2r2.yml.carpet
+holomni_pcv_config: mb7/pcv_meka_b2r2.yml.wood
+#holomni_pcv_config: mb6/pcv_meka_b2r2.yml.wood.fast
+name: m3omnibase_mb7
+version: iss
+joint_array_component: m3joint_array_mb7
+pwr_component: m3pwr_pwr042
+param:
+  ks_p: -0.0001
+  ks_d: 0
+  ks_i: -0.0001
+  ks_i_limit: 20 #400.0
+  ks_i_range: 100 #90.0 
+#   ks_p: -0.001
+#   ks_d: 0.0
+#   ks_i: -0.0001 #0.1
+#   ks_i_limit: 20 #400.0
+#   ks_i_range: 100 #90.0 
+truss_vel_thresh: 70.0
+#use_truss_vel_thresh: true #enable to detect wheel instability
+use_truss_vel_thresh: false
+  
