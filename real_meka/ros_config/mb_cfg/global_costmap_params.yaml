@@ -1,0 +1,9 @@
+global_costmap:
+  global_frame: /map
+  robot_base_frame: /base_link
+  observation_sources: laser_scan_sensor
+  update_frequency: 5.0
+  static_map: true
+  map_type: costmap
+  resolution: 0.1
+

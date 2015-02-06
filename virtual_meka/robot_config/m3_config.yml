@@ -1,4 +1,4 @@
-config_path: /home/meka/Sandbox/mekabot/m3bie/virtual_meka/robot_config/
+config_path: /home/meka/mekabot/m3bie/virtual_meka/robot_config/
 factory_py_libs:
 - /usr/local/lib/python2.7/dist-packages/m3/m3meka_factory_proxy.py
 factory_rt_libs:
@@ -8,7 +8,7 @@ factory_rt_libs:
 - /usr/local/lib/libm3robots.so
 - /usr/local/lib/libm3robot_ctrl.so
 - /usr/local/lib/libm3vehicles.so
-hostname: meka-mariposa
+hostname: meka-man
 left_hand: m3hand_mh26
 right_hand: m3hand_mh24
 rt_components:

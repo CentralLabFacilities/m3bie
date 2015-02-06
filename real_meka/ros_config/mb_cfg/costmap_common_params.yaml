@@ -1,0 +1,17 @@
+max_obstacle_range: 3.0
+raytrace_range: 5.5
+
+robot_radius: 0
+footprint: [ [0.313, -0.18], [0.18, -0.27], [-0.18, -0.27], [-0.313, -0.20], [-0.313, 0.20], [-0.18, 0.27], [0.18, 0.27], [0.313, 0.18] ]
+#footprint: [ [0.15, -0.25], [0.25, -0.195], [0.30, -0.1], [0.31, 0], [0.30, 0.1], [0.25, 0.195],  [0.15, 0.25], [-0.15, 0.25], [-0.25, 0.195], [-0.30, 0.1], [-0.31, 0], [-0.30, -0.1], [-0.25, -0.195], [-0.15, -0.25] ]
+
+inflation_radius: 0.90
+update_frequency: 5.0      # default 5.0
+publish_frequency: 5.0      # default 0.0
+cost_scaling_factor: 3.0    # default 10.0
+
+observation_sources: laser_scan_sensor
+
+laser_scan_sensor: {sensor_frame: laser, data_type: LaserScan, topic: /scan, marking: true, clearing: true, expected_update_rate: 0.2}
+
+

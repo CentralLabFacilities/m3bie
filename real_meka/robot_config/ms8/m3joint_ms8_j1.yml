@@ -17,7 +17,7 @@ param:
   kt_p: 0.0
   max_q: 80.0
   max_q_pad: 0.0
-  max_q_slew_rate: 75.0
+  max_q_slew_rate: 25.0
   min_q: -80.0
   min_q_pad: 0.0
 transmission:

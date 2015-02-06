@@ -1,0 +1,59 @@
+TrajectoryPlannerROS:
+
+# Set the acc.eleration limits of the robot - "most important thing"
+  acc_lim_x: 0.5                    # 2.5
+  acc_lim_y: 0.0                    # 2.5
+  acc_lim_theta: 0.4                # 3.2
+
+# Set the velocity limits of the robot
+  max_vel_x: 0.5                    # 0.5 -- measured max (too fast): 0.9
+  min_vel_x: 0.05                   # 0.1
+  max_vel_theta: 1.2
+  min_vel_theta: -1.2
+  min_in_place_vel_theta: 1.3 # 0.4
+
+# Notice that this velocity is set to be negative. A bit confusing admittedly.
+  escape_vel: -0.1                  # -0.1
+
+# mekabot is a holonomic robot.
+  holonomic_robot: true 
+
+# ---- Goal tolerance parameters
+  yaw_goal_tolerance: 0.2           # 0.25 rad = ~15 degree 
+  xy_goal_tolerance: 0.1           # 0.2
+  latch_xy_goal_tolerance: true     # false  -- If goal tolerance is latched, if the robot ever reaches the goal xy location it will simply rotate in place, even if it ends up outside the goal tolerance while it is doing so.
+  
+# ---- Foward simulation parameters
+# We'll configure how long and with what granularity we'll forward simulate trajectories  
+  sim_time: 1.6                     # 1.0 -- setting it higher can result in slightly smoother trajectories
+  sim_granularity: 0.025            # 0.025
+  angular_sim_granularity: 0.025    # 0.025
+  vx_samples: 10                    # 3
+  vtheta_samples: 20                # 20
+  controller_frequency: 30          # 20
+
+
+# ---- Parameters for scoring trajectories
+  meter_scoring: true              # false -- distance in meter or cells
+  pdist_scale: 2.0                  # 
+  gdist_scale: 0.85                  # 
+  occdist_scale: 0.02               # 0.01 -- weighting how much controller should avoid obstacles
+  heading_lookahead: 0.325          # 0.325
+  heading_scoring: false            # false
+  heading_scoring_timestep: 0.8     # 0.8 -- only with heading_scoring true
+  dwa: false                         # true -- false if robot has low acceleration limits
+  publish_cost_grid_pc: true        # false
+  global_frame_id: odom             # odom
+
+# --- Oscillation prevention parameters
+  oscillation_reset_dist: 0.1      # 0.05
+
+  prune_plan: true                  # true
+
+# --- recovery behaviours 
+recovery_behaviors: [{name: conservative_reset, type: clear_costmap_recovery/ClearCostmapRecovery}]
+#, {name: rotate_recovery, type: rotate_recovery/RotateRecovery}
+
+      #DEFAULT: [{name: conservative_reset, type: clear_costmap_recovery/ClearCostmapRecovery}, {name: rotate_recovery, type: rotate_recovery/RotateRecovery}, {name: aggressive_reset, type: clear_costmap_recovery/ClearCostmapRecovery}]
+
+#conservative_reset_dist: 4.0

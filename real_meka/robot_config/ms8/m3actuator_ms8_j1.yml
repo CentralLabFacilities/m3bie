@@ -24,7 +24,7 @@ calib:
     name: Allegro ACS714-5.0
     type: dsp_calib
   ext_temp:
-    cb_bias: -4.1099999999999994
+    cb_bias: -4.109999999999999
     cb_scale: 0.01
     name: Microchip TC1047, converted at dsp
     type: dsp_calib
@@ -57,9 +57,9 @@ calib:
     thermal_time_constant_motor: 157.0
     thermal_time_constant_winding: 28.8
     torque_constant: 36.9
+    use_old_temp_values: true
     winding_inductance: 0.463
     winding_resistance: 0.608
-    use_old_temp_values: true    
   theta:
     cb_bias: 184
     cb_scale: -1.0
@@ -73,11 +73,11 @@ calib:
     type: diff_butterworth
 calibration_date: Fri Oct 26 15:07:03 2012
 description: bmw_v1.0
+disable_vertx_check_tq: true
 ec_component: m3actuator_ec_ms8_j1
 ignore_bounds: 0
 joint_component: m3joint_ms8_j1
 name: m3actuator_ms8_j1
-disable_vertx_check_tq: true
 param:
   max_amp_current: 3500.0
   max_amp_temp: 100.0
