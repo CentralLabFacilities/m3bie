@@ -10,8 +10,8 @@ param:
     k_i: 0.0
     k_i_limit: 1.0
     k_i_range: 1.0
-    k_p: -6.0
-    k_slew_max: 1200.0
+    k_p: -7.0
+    k_slew_max: 1200.0      
   pid_torque:
     k_d: 0.0
     k_des_max: 10000.0
@@ -19,7 +19,7 @@ param:
     k_i: 0.0
     k_i_limit: 1.0
     k_i_range: 15000.0
-    k_p: 0.0
+    k_p: 1.0
     k_slew_max: 0.0
   traj_current:
     amp: 2.0

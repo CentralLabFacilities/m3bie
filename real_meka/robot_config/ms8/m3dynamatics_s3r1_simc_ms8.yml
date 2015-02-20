@@ -42,6 +42,6 @@ param:
   - 0.0
   - 0.0
   - 0.0
-  payload_mass: 0.0 ##1.0
+  payload_mass: 1.0
   use_accelerations: false
   use_velocities: false

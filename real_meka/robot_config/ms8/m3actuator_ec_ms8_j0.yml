@@ -13,9 +13,11 @@ param:
   k_ff: 0
   k_ff_shift: 0
   k_ff_zero: 0
+#  k_i: 10
   k_i: 1
   k_i_limit: 800
   k_i_shift: 0
+#  k_p: 50
   k_p: 7
   k_p_shift: 0
   pwm_db: 0

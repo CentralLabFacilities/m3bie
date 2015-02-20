@@ -180,6 +180,16 @@ rt_components:
   - m3joint_ms8_j1: m3joint
   - m3dynamatics_s3r1_simc_ms8: m3dynamatics
   - m3head_ms8: m3head
+- mt6:
+  - m3actuator_mt6_j0: m3actuator
+  - m3actuator_mt6_j1: m3actuator
+  - m3ctrl_simple_mt6_j0: m3ctrl_simple
+  - m3ctrl_simple_mt6_j1: m3ctrl_simple
+  - m3joint_mt6_j0: m3joint
+  - m3joint_mt6_j1: m3joint
+  - m3joint_slave_mt6_j2: m3joint_slave
+  - m3torso_mt6: m3torso
+  - m3dynamatics_bimanual_mt6: m3dynamatics
 - mr18:
   - m3humanoid_right_left_arm_torso_head_mr18: m3humanoid
   - m3humanoid_shm18: m3humanoid_shm

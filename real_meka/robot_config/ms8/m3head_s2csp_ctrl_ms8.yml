@@ -23,6 +23,6 @@ param:
   - 3.0
   - 0.0
   - 0.0
-robot_component: m3humanoid_right_left_arm_torso_head_mr18
+robot_component: m3humanoid_right_left_arm_head_mr18
 
 
