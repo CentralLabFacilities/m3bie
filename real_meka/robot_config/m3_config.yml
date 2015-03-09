@@ -61,6 +61,7 @@ factory_rt_libs:
 - /usr/local/lib/libm3vehicles.so
 hostname: meka-man
 left_hand: m3hand_mh26
+left_arm: m3arm_ma30
 ndof_chains:
   head: 2
   left_arm: 7
@@ -69,6 +70,7 @@ ndof_chains:
   right_hand: 5
   torso: 2
 right_hand: m3hand_mh24
+right_arm: m3arm_ma29
 rt_components:
 - pwr:
   - m3pwr_pwr042: m3pwr
