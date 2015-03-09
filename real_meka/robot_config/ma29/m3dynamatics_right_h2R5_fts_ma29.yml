@@ -84,8 +84,7 @@ links:
   cz: -0.0018201000000000001
   d: 0.0
   joint_offset: 90.0
-#  m: 0.21199999999999999
-  m: 0.3
+  m: 0.21199999999999999
 - Ixx: 9.4279999999999999e-05
   Ixy: 2.0e-08
   Ixz: 0.0
@@ -119,7 +118,6 @@ param:
   - 0.0
   - 0.0  
   payload_mass: 0.83799999999999997
-#  payload_mass: 0.0
   use_accelerations: false
   use_velocities: false
 version: iss
