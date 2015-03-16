@@ -93,5 +93,9 @@ chains:
     - 0.0
     - 0.0
     - 0.0
+  right_hand:
+    chain_component: m3hand_mh24
+  left_hand:
+    chain_component: m3hand_mh26
 name: m3humanoid_right_left_arm_torso_head_mr18
 pwr_component: m3pwr_pwr038
