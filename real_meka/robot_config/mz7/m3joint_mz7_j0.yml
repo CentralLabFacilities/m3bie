@@ -23,7 +23,8 @@ param:
   max_q_slew_rate: 2000.0
   min_q: 0.0
   min_q_pad: 100.0
-pwm_calibration_down: 197
+pwm_calibration_down: 190
+pwm_calibration_hold: 250
 pwm_calibration_up: 400
 transmission:
   act_name: m3actuator_mz7_j0
@@ -37,3 +38,4 @@ transmission:
   - 1.0
   type: gear
 version: iss
+disable_pwm_ramp: 1
