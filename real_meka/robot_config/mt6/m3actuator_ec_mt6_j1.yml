@@ -1,5 +1,6 @@
 chid: 0
 config:
+  dont_check_tq_vertx_err: true
   has_brake: true
   over_ride_ext_temp: m3actuator_ec_mt6_j0
 ethercat:

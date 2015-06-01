@@ -1,4 +1,6 @@
 chid: 0
+config:
+  dont_check_tq_vertx_err: true
 ethercat:
   pdo_version: actx1_pdo_v4
   product_code: 1010

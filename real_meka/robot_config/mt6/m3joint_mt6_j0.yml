@@ -1,24 +1,24 @@
 actuator_component: m3actuator_mt6_j0
 brake: none
-calibration_date: Sat Nov 23 12:30:51 2013
+calibration_date: Sun Dec  8 16:07:10 2013
 control_component: m3ctrl_simple_mt6_j0
 name: m3joint_mt6_j0
 param:
-  kq_d: 200.0
+  kq_d: 400.0
   kq_g: 1.0
-  kq_i: 0.0
-  kq_i_limit: 0.0
-  kq_i_range: 0.0
+  kq_i: 4.0
+  kq_i_limit: 18000.0
+  kq_i_range: 10.0
   kq_p: 2000.0
   kt_d: 0.0
   kt_i: 0.0
   kt_i_limit: 0.0
   kt_i_range: 0.0
-  kt_p: 0.0
-  max_q: 90.14008423365684
+  kt_p: 5.0
+  max_q: 90.09064273942501
   max_q_pad: 0.0
   max_q_slew_rate: 25.0
-  min_q: -90.14008423365684
+  min_q: -90.09064273942501
   min_q_pad: 0.0
 transmission:
   act_name: m3actuator_mt6_j0
