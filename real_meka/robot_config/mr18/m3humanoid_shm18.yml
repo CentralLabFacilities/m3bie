@@ -2,7 +2,6 @@ name: m3humanoid_shm18
 version: default
 # shm_id must be less than 5 char
 shm_id: TSHM
-
 humanoid_component: m3humanoid_right_left_arm_torso_head_mr18
 #right_loadx6_component: m3loadx6_ma29_l0
 #left_loadx6_component: m3loadx6_ma30_l0
