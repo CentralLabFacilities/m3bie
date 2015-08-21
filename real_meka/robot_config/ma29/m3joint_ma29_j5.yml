@@ -5,16 +5,17 @@ control_component: m3ctrl_simple_ma29_j5
 name: m3joint_ma29_j5
 param:
   kq_d: -2.0
-  kq_d_tq_gm: 0.0
+#  kq_d_tq_gm: 0.0
   kq_g: 1.0
   kq_i: 0.0
   kq_i_limit: 0.0
-  kq_i_limit_tq_gm: 1000.0
+#  kq_i_limit_tq_gm: 1000.0
   kq_i_range: 0.0
-  kq_i_range_tq_gm: 1000.0
-  kq_i_tq_gm: 0.001
-  kq_p: -80.0
-  kq_p_tq_gm: 0.0
+#  kq_i_range_tq_gm: 1000.0
+#  kq_i_tq_gm: 0.001
+#  kq_p: -80.0
+  kq_p: -120.0
+#  kq_p_tq_gm: 0.0
   kt_d: 0.0
   kt_i: 0.0
   kt_i_limit: 0.0

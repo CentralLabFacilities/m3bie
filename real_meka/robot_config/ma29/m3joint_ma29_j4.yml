@@ -38,3 +38,4 @@ transmission:
   - 1.0
   type: gear
 version: iq
+disable_pwm_ramp: 1
