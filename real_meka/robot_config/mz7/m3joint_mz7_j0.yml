@@ -1,7 +1,7 @@
 actuator_component: m3actuator_mz7_j0
 brake: auto
 calib:
-  cb_gearing: 2.4
+  cb_gearing: 2.75
   cb_payload_mass: 53.0
   cb_screw_efficiency: 0.9
   cb_screw_pitch: 20.0
