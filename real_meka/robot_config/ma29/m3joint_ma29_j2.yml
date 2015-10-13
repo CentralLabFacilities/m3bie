@@ -1,6 +1,6 @@
 actuator_component: m3actuator_ma29_j2
 brake: none
-calibration_date: Wed Aug 28 16:48:33 2013
+calibration_date: Tue Oct 13 11:49:18 2015
 control_component: m3ctrl_simple_ma29_j2
 name: m3joint_ma29_j2
 param:
@@ -21,10 +21,10 @@ param:
   kt_i_limit: 0.0
   kt_i_range: 0.0
   kt_p: 0.0
-  max_q: 85.61069401208569
+  max_q: 85.59970701336752
   max_q_pad: 0.0
   max_q_slew_rate: 50.0
-  min_q: -85.61069401208569
+  min_q: -85.59970701336752
   min_q_pad: 0.0
 transmission:
   act_name: m3actuator_ma29_j2

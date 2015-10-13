@@ -63,7 +63,7 @@ calib:
     winding_inductance: 0.0823
     winding_resistance: 0.317
   theta:
-    cb_bias: 249.00310932063726
+    cb_bias: 243.9992675334188
     cb_scale: -1.0
     name: ContElec VertX13
     type: vertx_14bit
@@ -82,7 +82,7 @@ calib:
     cutoff_freq: 80
     order: 3
     type: diff_butterworth
-calibration_date: Wed Aug 28 16:50:02 2013
+calibration_date: Tue Oct 13 15:11:16 2015
 description: max2_v2.0
 ec_component: m3actuator_ec_ma29_j1
 ignore_bounds: 0
