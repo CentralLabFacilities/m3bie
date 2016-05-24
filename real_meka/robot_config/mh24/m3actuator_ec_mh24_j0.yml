@@ -1,4 +1,7 @@
 chid: 0
+config:
+  dont_check_qei_vertx_err: true
+  dont_check_tq_vertx_err: true
 ethercat:
   pdo_version: actx2_pdo_v1
   product_code: 1011
@@ -23,8 +26,5 @@ param:
   qei_min: 1450
   t_max: 4096
   t_min: 0
-config:
-  dont_check_qei_vertx_err: true
-  dont_check_tq_vertx_err: true    
 pwr_component: m3pwr_pwr038
 version: iss

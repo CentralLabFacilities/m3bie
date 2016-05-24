@@ -5,10 +5,10 @@ name: m3joint_mh26_j0
 param:
   kq_d: -0.1
   kq_g: 0.0
-  kq_i: 0.0
-  kq_i_limit: 35.0
-  kq_i_range: 45.0
-  kq_p: -20.0
+  kq_i: -0.01
+  kq_i_limit: 50.0
+  kq_i_range: 20.0
+  kq_p: -7.5
   kt_d: 0.0
   kt_i: 0.0
   kt_i_limit: 0.0
