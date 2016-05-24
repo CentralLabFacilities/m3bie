@@ -36,14 +36,14 @@ ec_components:
   - m3pwr_ec_pwr042: m3pwr_ec
   - m3pwr_ec_pwr038: m3pwr_ec
 factory_py_libs:
-- /usr/local/lib/python2.7/dist-packages/m3/m3meka_factory_proxy.py
+- /vol/local/lib/python2.7/dist-packages/m3/m3meka_factory_proxy.py
 factory_rt_libs:
-- /usr/local/lib/libm3toolbox.so
-- /usr/local/lib/libm3hardware.so
-- /usr/local/lib/libm3chains.so
-- /usr/local/lib/libm3robots.so
-- /usr/local/lib/libm3robot_ctrl.so
-- /usr/local/lib/libm3vehicles.so
+- /vol/local/lib/libm3toolbox.so
+- /vol/local/lib/libm3hardware.so
+- /vol/local/lib/libm3chains.so
+- /vol/local/lib/libm3robots.so
+- /vol/local/lib/libm3robot_ctrl.so
+- /vol/local/lib/libm3vehicles.so
 hostname: meka-man
 left_hand: m3hand_mh26
 left_arm: m3arm_ma30
