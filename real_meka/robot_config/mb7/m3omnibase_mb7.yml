@@ -17,7 +17,7 @@ param:
 #   ks_i: -0.0001 #0.1
 #   ks_i_limit: 20 #400.0
 #   ks_i_range: 100 #90.0 
-truss_vel_thresh: 70.0
+truss_vel_thresh: 20.0
 #use_truss_vel_thresh: true #enable to detect wheel instability
-use_truss_vel_thresh: false
+use_truss_vel_thresh: true
   
