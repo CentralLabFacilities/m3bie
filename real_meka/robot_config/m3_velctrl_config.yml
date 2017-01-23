@@ -1,0 +1,201 @@
+config_path: /home/meka/workspace_meka_system/src/m3bie/real_meka/robot_config/
+ec_components:
+- ma30:
+  - m3actuator_ec_ma30_j0: m3actuator_ec
+  - m3actuator_ec_ma30_j1: m3actuator_ec
+  - m3actuator_ec_ma30_j2: m3actuator_ec
+  - m3actuator_ec_ma30_j3: m3actuator_ec
+  - m3actuator_ec_ma30_j4: m3actuator_ec
+  - m3actuator_ec_ma30_j5: m3actuator_ec
+  - m3actuator_ec_ma30_j6: m3actuator_ec
+  - m3loadx6_ec_ma30_l0: m3loadx6_ec
+- ma29:
+  - m3actuator_ec_ma29_j0: m3actuator_ec
+  - m3actuator_ec_ma29_j1: m3actuator_ec
+  - m3actuator_ec_ma29_j2: m3actuator_ec
+  - m3actuator_ec_ma29_j3: m3actuator_ec
+  - m3actuator_ec_ma29_j4: m3actuator_ec
+  - m3actuator_ec_ma29_j5: m3actuator_ec
+  - m3actuator_ec_ma29_j6: m3actuator_ec
+  - m3loadx6_ec_ma29_l0: m3loadx6_ec
+- mh26:
+  - m3actuator_ec_mh26_j0: m3actuator_ec
+  - m3actuator_ec_mh26_j1: m3actuator_ec
+  - m3actuator_ec_mh26_j2: m3actuator_ec
+  - m3actuator_ec_mh26_j3: m3actuator_ec
+  - m3actuator_ec_mh26_j4: m3actuator_ec
+- mh24:
+  - m3actuator_ec_mh24_j0: m3actuator_ec
+  - m3actuator_ec_mh24_j1: m3actuator_ec
+  - m3actuator_ec_mh24_j2: m3actuator_ec
+  - m3actuator_ec_mh24_j3: m3actuator_ec
+  - m3actuator_ec_mh24_j4: m3actuator_ec
+- ms8:
+  - m3actuator_ec_ms8_j0: m3actuator_ec
+  - m3actuator_ec_ms8_j1: m3actuator_ec
+- mt6:
+  - m3actuator_ec_mt6_j0: m3actuator_ec
+  - m3actuator_ec_mt6_j1: m3actuator_ec
+- mz7:
+  - m3actuator_ec_mz7_j0: m3actuator_ec
+- mb7:
+  - m3actuator_ec_mb7_j0: m3actuator_ec
+  - m3actuator_ec_mb7_j1: m3actuator_ec
+  - m3actuator_ec_mb7_j2: m3actuator_ec
+  - m3actuator_ec_mb7_j3: m3actuator_ec
+  - m3actuator_ec_mb7_j4: m3actuator_ec
+  - m3actuator_ec_mb7_j5: m3actuator_ec
+  - m3actuator_ec_mb7_j6: m3actuator_ec
+  - m3actuator_ec_mb7_j7: m3actuator_ec
+- pwr:
+  - m3pwr_ec_pwr042: m3pwr_ec
+  - m3pwr_ec_pwr038: m3pwr_ec
+factory_py_libs:
+- /vol/local/lib/python2.7/dist-packages/m3/m3meka_factory_proxy.py
+factory_rt_libs:
+- /vol/local/lib/libm3toolbox.so
+- /vol/local/lib/libm3hardware.so
+- /vol/local/lib/libm3chains.so
+- /vol/local/lib/libm3robots.so
+- /vol/local/lib/libm3robot_ctrl.so
+- /vol/local/lib/libm3vehicles.so
+- /vol/local/lib/libmeka_omnibase_control.so
+hostname: meka-man
+left_hand: m3hand_mh26
+left_arm: m3arm_ma30
+ndof_chains:
+  head: 2
+  left_arm: 7
+  left_hand: 5
+  right_arm: 7
+  right_hand: 5
+  torso: 2
+right_hand: m3hand_mh24
+right_arm: m3arm_ma29
+rt_components:
+- pwr:
+  - m3pwr_pwr042: m3pwr
+  - m3pwr_pwr038: m3pwr
+- mz7:
+  - m3actuator_mz7_j0: m3actuator
+  - m3joint_mz7_j0: m3joint_zlift
+  - m3joint_shm_mz7_j0: m3joint_zlift_shm
+- ma29:
+  - m3actuator_ma29_j0: m3actuator
+  - m3actuator_ma29_j1: m3actuator
+  - m3actuator_ma29_j2: m3actuator
+  - m3actuator_ma29_j3: m3actuator
+  - m3actuator_ma29_j4: m3actuator
+  - m3actuator_ma29_j5: m3actuator
+  - m3actuator_ma29_j6: m3actuator
+  - m3ctrl_simple_ma29_j0: m3ctrl_simple
+  - m3ctrl_simple_ma29_j1: m3ctrl_simple
+  - m3ctrl_simple_ma29_j2: m3ctrl_simple
+  - m3ctrl_simple_ma29_j3: m3ctrl_simple
+  - m3ctrl_simple_ma29_j4: m3ctrl_simple
+  - m3ctrl_simple_ma29_j5: m3ctrl_simple
+  - m3ctrl_simple_ma29_j6: m3ctrl_simple
+  - m3joint_ma29_j0: m3joint
+  - m3joint_ma29_j1: m3joint
+  - m3joint_ma29_j2: m3joint
+  - m3joint_ma29_j3: m3joint
+  - m3joint_ma29_j4: m3joint
+  - m3joint_ma29_j5: m3joint
+  - m3joint_ma29_j6: m3joint
+  - m3arm_ma29: m3arm
+  - m3dynamatics_right_h2R5_fts_ma29: m3dynamatics
+  - m3loadx6_ma29_l0: m3loadx6
+- ma30:
+  - m3actuator_ma30_j0: m3actuator
+  - m3actuator_ma30_j1: m3actuator
+  - m3actuator_ma30_j2: m3actuator
+  - m3actuator_ma30_j3: m3actuator
+  - m3actuator_ma30_j4: m3actuator
+  - m3actuator_ma30_j5: m3actuator
+  - m3actuator_ma30_j6: m3actuator
+  - m3ctrl_simple_ma30_j0: m3ctrl_simple
+  - m3ctrl_simple_ma30_j1: m3ctrl_simple
+  - m3ctrl_simple_ma30_j2: m3ctrl_simple
+  - m3ctrl_simple_ma30_j3: m3ctrl_simple
+  - m3ctrl_simple_ma30_j4: m3ctrl_simple
+  - m3ctrl_simple_ma30_j5: m3ctrl_simple
+  - m3ctrl_simple_ma30_j6: m3ctrl_simple
+  - m3joint_ma30_j0: m3joint
+  - m3joint_ma30_j1: m3joint
+  - m3joint_ma30_j2: m3joint
+  - m3joint_ma30_j3: m3joint
+  - m3joint_ma30_j4: m3joint
+  - m3joint_ma30_j5: m3joint
+  - m3joint_ma30_j6: m3joint
+  - m3arm_ma30: m3arm
+  - m3dynamatics_left_h2R5_fts_ma30: m3dynamatics
+  - m3loadx6_ma30_l0: m3loadx6
+- mh24:
+  - m3actuator_mh24_j0: m3actuator
+  - m3actuator_mh24_j1: m3actuator
+  - m3actuator_mh24_j2: m3actuator
+  - m3actuator_mh24_j3: m3actuator
+  - m3actuator_mh24_j4: m3actuator
+  - m3joint_mh24_j0: m3joint
+  - m3joint_mh24_j1: m3joint
+  - m3joint_mh24_j2: m3joint
+  - m3joint_mh24_j3: m3joint
+  - m3joint_mh24_j4: m3joint
+  - m3hand_mh24: m3hand
+- mh26:
+  - m3actuator_mh26_j0: m3actuator
+  - m3actuator_mh26_j1: m3actuator
+  - m3actuator_mh26_j2: m3actuator
+  - m3actuator_mh26_j3: m3actuator
+  - m3actuator_mh26_j4: m3actuator
+  - m3joint_mh26_j0: m3joint
+  - m3joint_mh26_j1: m3joint
+  - m3joint_mh26_j2: m3joint
+  - m3joint_mh26_j3: m3joint
+  - m3joint_mh26_j4: m3joint
+  - m3hand_mh26: m3hand
+- mb7:
+  - m3actuator_mb7_j0: m3actuator
+  - m3actuator_mb7_j1: m3actuator
+  - m3actuator_mb7_j2: m3actuator
+  - m3actuator_mb7_j3: m3actuator
+  - m3actuator_mb7_j4: m3actuator
+  - m3actuator_mb7_j5: m3actuator
+  - m3actuator_mb7_j6: m3actuator
+  - m3actuator_mb7_j7: m3actuator
+  - m3joint_mb7_j0: m3joint
+  - m3joint_mb7_j1: m3joint
+  - m3joint_mb7_j2: m3joint
+  - m3joint_mb7_j3: m3joint
+  - m3joint_mb7_j4: m3joint
+  - m3joint_mb7_j5: m3joint
+  - m3joint_mb7_j6: m3joint
+  - m3joint_mb7_j7: m3joint
+  - m3joint_array_mb7: m3joint_array
+#  - m3omnibase_mb7: m3omnibase
+#  - m3omnibase_shm_mb7: m3omnibase_shm
+- meka_omnibase_control:
+  - meka_omnibase_control_component: meka_omnibase_control
+- ms8:
+  - m3actuator_ms8_j0: m3actuator
+  - m3actuator_ms8_j1: m3actuator
+  - m3ctrl_simple_ms8_j0: m3ctrl_simple
+  - m3ctrl_simple_ms8_j1: m3ctrl_simple
+  - m3joint_ms8_j0: m3joint
+  - m3joint_ms8_j1: m3joint
+  - m3dynamatics_s3r1_simc_ms8: m3dynamatics
+  - m3head_ms8: m3head
+- mt6:
+  - m3actuator_mt6_j0: m3actuator
+  - m3actuator_mt6_j1: m3actuator
+  - m3ctrl_simple_mt6_j0: m3ctrl_simple
+  - m3ctrl_simple_mt6_j1: m3ctrl_simple
+  - m3joint_mt6_j0: m3joint
+  - m3joint_mt6_j1: m3joint
+  - m3joint_slave_mt6_j2: m3joint_slave
+  - m3torso_mt6: m3torso
+  - m3dynamatics_bimanual_mt6: m3dynamatics
+- mr18:
+  - m3humanoid_right_left_arm_torso_head_mr18: m3humanoid
+  - m3humanoid_shm18: m3humanoid_shm
+sys_test: bie
