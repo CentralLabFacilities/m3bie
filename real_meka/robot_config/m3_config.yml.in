@@ -1,3 +1,4 @@
+package: m3bie
 config_path: ${CMAKE_INSTALL_DIR}/${M3_CONFIG_PATH}
 ec_components:
 - ma30:
@@ -59,6 +60,7 @@ factory_rt_libs:
 - ${CMAKE_INSTALL_PREFIX}/lib/libm3robots.so
 - ${CMAKE_INSTALL_PREFIX}/lib/libm3robot_ctrl.so
 - ${CMAKE_INSTALL_PREFIX}/lib/libm3vehicles.so
+- ${CMAKE_INSTALL_PREFIX}/lib/libmeka_omnibase_control.so
 hostname: meka-man
 left_hand: m3hand_mh26
 left_arm: m3arm_ma30
