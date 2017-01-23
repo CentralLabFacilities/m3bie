@@ -74,6 +74,8 @@ ndof_chains:
 right_hand: m3hand_mh24
 right_arm: m3arm_ma29
 rt_components:
+- sys:
+  - m3monitor_m0: m3monitor
 - pwr:
   - m3pwr_pwr042: m3pwr
   - m3pwr_pwr038: m3pwr
