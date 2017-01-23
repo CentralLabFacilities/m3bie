@@ -172,7 +172,9 @@ rt_components:
   - m3joint_mb7_j7: m3joint
   - m3joint_array_mb7: m3joint_array
   - m3omnibase_mb7: m3omnibase
-  - m3omnibase_shm_mb7: m3omnibase_shm
+#  - m3omnibase_shm_mb7: m3omnibase_shm
+- meka_omnibase_control:
+  - meka_omnibase_control_component: meka_omnibase_control
 - ms8:
   - m3actuator_ms8_j0: m3actuator
   - m3actuator_ms8_j1: m3actuator
