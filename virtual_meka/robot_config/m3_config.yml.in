@@ -1,13 +1,13 @@
-config_path: /home/meka/mekabot/m3bie/virtual_meka/robot_config/
+config_path: ${CMAKE_INSTALL_DIR}/${M3VIRTUAL_CONFIG_PATH}
 factory_py_libs:
-- /vol/local/lib/python2.7/dist-packages/m3/m3meka_factory_proxy.py
+- ${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/m3/m3meka_factory_proxy.py
 factory_rt_libs:
-- /vol/local/lib/libm3toolbox.so
-- /vol/local/lib/libm3hardware.so
-- /vol/local/lib/libm3chains.so
-- /vol/local/lib/libm3robots.so
-- /vol/local/lib/libm3robot_ctrl.so
-- /vol/local/lib/libm3vehicles.so
+- ${CMAKE_INSTALL_PREFIX}/lib/libm3toolbox.so
+- ${CMAKE_INSTALL_PREFIX}/lib/libm3hardware.so
+- ${CMAKE_INSTALL_PREFIX}/lib/libm3chains.so
+- ${CMAKE_INSTALL_PREFIX}/lib/libm3robots.so
+- ${CMAKE_INSTALL_PREFIX}/lib/libm3robot_ctrl.so
+- ${CMAKE_INSTALL_PREFIX}/lib/libm3vehicles.so
 hostname: meka-man
 left_hand: m3hand_mh26
 right_hand: m3hand_mh24

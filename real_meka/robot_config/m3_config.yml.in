@@ -1,4 +1,5 @@
-config_path: /home/meka/mekabot/m3bie/real_meka/robot_config/
+package: m3bie
+config_path: ${CMAKE_INSTALL_DIR}/${M3_CONFIG_PATH}
 ec_components:
 - ma30:
   - m3actuator_ec_ma30_j0: m3actuator_ec
@@ -51,14 +52,15 @@ ec_components:
   - m3pwr_ec_pwr042: m3pwr_ec
   - m3pwr_ec_pwr038: m3pwr_ec
 factory_py_libs:
-- /vol/local/lib/python2.7/dist-packages/m3/m3meka_factory_proxy.py
+- ${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/m3/m3meka_factory_proxy.py
 factory_rt_libs:
-- /vol/local/lib/libm3toolbox.so
-- /vol/local/lib/libm3hardware.so
-- /vol/local/lib/libm3chains.so
-- /vol/local/lib/libm3robots.so
-- /vol/local/lib/libm3robot_ctrl.so
-- /vol/local/lib/libm3vehicles.so
+- ${CMAKE_INSTALL_PREFIX}/lib/libm3toolbox.so
+- ${CMAKE_INSTALL_PREFIX}/lib/libm3hardware.so
+- ${CMAKE_INSTALL_PREFIX}/lib/libm3chains.so
+- ${CMAKE_INSTALL_PREFIX}/lib/libm3robots.so
+- ${CMAKE_INSTALL_PREFIX}/lib/libm3robot_ctrl.so
+- ${CMAKE_INSTALL_PREFIX}/lib/libm3vehicles.so
+- ${CMAKE_INSTALL_PREFIX}/lib/libmeka_omnibase_control.so
 hostname: meka-man
 left_hand: m3hand_mh26
 left_arm: m3arm_ma30
@@ -172,7 +174,9 @@ rt_components:
   - m3joint_mb7_j7: m3joint
   - m3joint_array_mb7: m3joint_array
   - m3omnibase_mb7: m3omnibase
-  - m3omnibase_shm_mb7: m3omnibase_shm
+#  - m3omnibase_shm_mb7: m3omnibase_shm
+- meka_omnibase_control:
+  - meka_omnibase_control_component: meka_omnibase_control
 - ms8:
   - m3actuator_ms8_j0: m3actuator
   - m3actuator_ms8_j1: m3actuator
