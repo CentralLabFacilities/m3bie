@@ -1,6 +1,6 @@
 actuator_component: m3actuator_mh26_j0
 brake: none
-calibration_date: Tue Nov 12 15:34:16 2013
+calibration_date: Tue Dec  5 18:04:09 2017
 name: m3joint_mh26_j0
 param:
   kq_d: -0.1
@@ -14,10 +14,10 @@ param:
   kt_i_limit: 0.0
   kt_i_range: 0.0
   kt_p: 0.0
-  max_q: 115.984
+  max_q: 128.8122579152853
   max_q_pad: 0.0
   max_q_slew_rate: 300
-  min_q: 1.015913243627054
+  min_q: 6.187742084714692
   min_q_pad: 0.0
 transmission:
   act_name: m3actuator_mh26_j0
