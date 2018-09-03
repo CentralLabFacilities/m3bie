@@ -13,10 +13,10 @@ param:
   k_ff: 0
   k_ff_shift: 0
   k_ff_zero: 0
-  k_i: 1
-  k_i_limit: 800
+  k_i: 0
+  k_i_limit: 0
   k_i_shift: 1
-  k_p: 10
+  k_p: 8
   k_p_shift: 0
   pwm_db: 0
   pwm_max: 800
