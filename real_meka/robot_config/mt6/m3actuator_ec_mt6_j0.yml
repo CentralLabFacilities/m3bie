@@ -11,14 +11,14 @@ param:
   bldc_mode: 1
   config: 0
   k_d: 0
-  k_d_shift: 0
+  k_d_shift: 3
   k_ff: 0
   k_ff_shift: 0
   k_ff_zero: 0
-  k_i: 1
-  k_i_limit: 800
-  k_i_shift: 1
-  k_p: 10
+  k_i: 5
+  k_i_limit: 1600
+  k_i_shift: 5
+  k_p: 8
   k_p_shift: 0
   pwm_db: 0
   pwm_max: 800
