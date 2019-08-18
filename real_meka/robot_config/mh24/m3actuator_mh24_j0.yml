@@ -67,7 +67,7 @@ calib:
     name: US Digital MA3
     type: ma3_12bit
   torque:
-    cb_bias: -124.12221631780267
+    cb_bias: 11.1936560608
     cb_inv_torque:
     - 2.2151872853557433
     - 1652.3158216694867
