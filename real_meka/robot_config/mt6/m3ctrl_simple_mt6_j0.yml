@@ -16,10 +16,10 @@ param:
     k_d: 0.0
     k_des_max: 10000.0
     k_des_min: -10000.0
-    k_i: -0.0040000000000000001
+    k_i: -0.004
     k_i_limit: 2.0
     k_i_range: 15000.0
-    k_p: -0.00000000000000001
+    k_p: -1.0e-17
     k_slew_max: 0.0
   traj_current:
     amp: 2.0
