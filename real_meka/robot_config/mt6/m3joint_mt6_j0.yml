@@ -4,12 +4,12 @@ calibration_date: Wed Aug 21 13:21:17 2019
 control_component: m3ctrl_simple_mt6_j0
 name: m3joint_mt6_j0
 param:
-  kq_d: 300.0
+  kq_d: 700.0
   kq_g: 1.0
-  kq_i: 50.0
+  kq_i: 500.0
   kq_i_limit: 2000.0
   kq_i_range: 10.0
-  kq_p: 4000.0
+  kq_p: 7000.0
   kt_d: 0.0
   kt_i: 0.0
   kt_i_limit: 0.0
