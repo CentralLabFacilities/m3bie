@@ -1,6 +1,6 @@
 actuator_component: m3actuator_ma29_j1
 brake: none
-calibration_date: Tue Oct 13 15:11:16 2015
+calibration_date: Thu Sep 19 15:39:34 2019
 control_component: m3ctrl_simple_ma29_j1
 name: m3joint_ma29_j1
 param:
